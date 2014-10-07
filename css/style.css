@@ -81,6 +81,9 @@ form#search{
     margin-top: 32px;
     float: left;
 }
+.search{
+    display: none;
+}
 .navbar-form{
     padding: 0;
 }
@@ -114,7 +117,12 @@ input[type="search"]{
     margin-right: 8px;
 }
 #navIcon{
-    margin-top: 32px;
+    display: block;
+    width: 218px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px 0;
 }
 a.icons{
     width: 32px; 
@@ -123,8 +131,8 @@ a.icons{
     text-indent:-10000px;
     color: rgba(0,0,0,0);
     background: url("../images/iconSprite.png");
-    float: left;
     margin: 0 10px;
+    display: inline-block;
 }
 
 a.iconFacebook{ background-position: 0 0;} 
@@ -186,9 +194,9 @@ a.iconUser:hover{ background-position: -481px 0;}
         position: absolute;
         background: #ff5300;
         z-index: 999;
-        left: 178px;
+        left: 0px;
         top: 96px;
-        width: 170px;
+        width: 100%;
     }
     #menu a{
         color: #fff;
@@ -353,7 +361,7 @@ a.iconUser:hover{ background-position: -481px 0;}
     #wrapper-footer div.social{
         text-align: center;
         margin: 32px auto 0 auto;
-        width: 146px;
+        width: 160px;
         display: block;
         height: 32px;
     }
@@ -374,15 +382,12 @@ a.iconUser:hover{ background-position: -481px 0;}
         width: 50%;
         margin: 0 auto;
     }
-    .search{
-        display: none;
-    }
     #wrapper-header #logo{
         margin: 18px 0 18px 15px;
     }
-    #menu ul{
-        left: 0;
-        width: 100%;
+    
+    .wrapperIcons{
+        border-top: 1px solid #335c6f;
     }
 
 } 
@@ -398,10 +403,21 @@ a.iconUser:hover{ background-position: -481px 0;}
         margin-top: 10px;
         margin-bottom: 10px;
         width: 100%;
-    }
+    }   
 } 
 @media (min-width: 992px){
     .content-top .news{
+        display: block;
+    }
+    #menu ul{
+        left: 178px;
+        width: 170px;
+    }
+    #navIcon{
+        margin-top: 32px;
+        padding: 0;
+    }
+    .search{
         display: block;
     }
 
