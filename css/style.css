@@ -90,12 +90,32 @@ form#search{
 .navbar-form .form-control{
 
 }
+.textCenter{
+    text-align: center;
+    width: 100%;
+}
+.subtitles{
+    color: #ff5300;
+    font-weight: normal;
+    font-family: 'latoregular';
+    font-size: 2em;
+    display: block;   
+}
+hr.separator{
+    background: url("../images/borderSubTitles.jpg") no-repeat center bottom;
+    margin: 16px 0;
+    width: 100%;
+    border: none;
+    height: 3px;
+
+}
 button, html input[type=button], input[type=reset], input[type=submit],.btn-default{
     color: #fff;
     border: none;
     background: #ff5300;
     font-family: 'latoregular';
     font-size: 1em;
+    text-transform: uppercase;
 }
     .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
         color: #00334b;
@@ -109,6 +129,37 @@ input[type="search"],input[type="email"], input[type="number"], input[type="pass
     font-family: 'latoregular';
     font-size: 1em;
     padding: 6px 45px 6px 15px;
+}
+.lightBlue{
+    margin: 0 auto;
+    text-align: center;
+    background: #00b2ed;
+    display: inherit;
+}
+
+    .lightBlue:hover{
+        background: #ff5300;
+        color: #fff;
+    }
+.breadcrumb {
+    padding: 21px 0px;
+    margin-bottom: 0px;
+    list-style: none;
+    background: none;
+    border-radius: 0px;
+    color: #fff;
+}
+
+.breadcrumb li,.breadcrumb a, .breadcrumb a:hover{
+    color: #fff;
+}
+.breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: #fff;
+    content: "/\00a0";
+}
+.breadcrumb>.active {
+    color: #094969;
 }
 
 input[type="search"]{
