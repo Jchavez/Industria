@@ -44,6 +44,21 @@
     font-weight: normal;
     font-style: normal;
 }
+img {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+img:hover, img:focus, img:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
 
 html, body{
     font-family: 'latoregular';
@@ -72,24 +87,6 @@ h1{
     margin-top: 0px;
     margin-bottom: 22px;
 }
-::-webkit-input-placeholder { color:#00b2ed; }
-::-moz-placeholder { color:#00b2ed; } /* firefox 19+ */
-:-ms-input-placeholder { color:#00b2ed; } /* ie */
-input:-moz-placeholder { color:#00b2ed; }
-
-form#search{
-    margin-top: 32px;
-    float: left;
-}
-.search{
-    display: none;
-}
-.navbar-form{
-    padding: 0;
-}
-.navbar-form .form-control{
-
-}
 .textCenter{
     text-align: center;
     width: 100%;
@@ -109,7 +106,7 @@ hr.separator{
     height: 3px;
 
 }
-button, html input[type=button], input[type=reset], input[type=submit],.btn-default{
+button, input[type=button], input[type=reset], input[type=submit],.btn-default{
     color: #fff;
     border: none;
     background: #ff5300;
@@ -117,19 +114,11 @@ button, html input[type=button], input[type=reset], input[type=submit],.btn-defa
     font-size: 1em;
     text-transform: uppercase;
 }
-    .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+    .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default,button:hover, input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover {
         color: #00334b;
         background-color: #ffffff;
         border: none;
     }
-input[type="search"],input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="url"], input[type="text"],.form-control{
-    color: #00b2ed;
-    border: none;
-    background-color: #094969;
-    font-family: 'latoregular';
-    font-size: 1em;
-    padding: 6px 45px 6px 15px;
-}
 .lightBlue{
     margin: 0 auto;
     text-align: center;
@@ -141,6 +130,21 @@ input[type="search"],input[type="email"], input[type="number"], input[type="pass
         background: #ff5300;
         color: #fff;
     }
+
+input[type="search"]{
+    color: #00b2ed;
+    border: none;
+    background-color: #094969;
+    font-family: 'latoregular';
+    font-size: 1em;
+    padding: 6px 45px 6px 15px;
+    background: url("../images/iconSearch.jpg") no-repeat 270px center #094969;
+    width: 300px;
+    margin-right: 8px;
+}
+input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="url"], input[type="text"],.form-control{
+
+}
 .breadcrumb {
     padding: 21px 0px;
     margin-bottom: 0px;
@@ -161,19 +165,12 @@ input[type="search"],input[type="email"], input[type="number"], input[type="pass
 .breadcrumb>.active {
     color: #094969;
 }
-
-input[type="search"]{
-    background: url("../images/iconSearch.jpg") no-repeat 270px center #094969;
-    width: 300px;
-    margin-right: 8px;
-}
 #navIcon{
     display: block;
-    width: 218px;
-    height: auto;
+    width: 210px;
+    height: 32px;
     margin-left: auto;
     margin-right: auto;
-    padding: 16px 0;
 }
 a.icons{
     width: 32px; 
@@ -183,7 +180,8 @@ a.icons{
     color: rgba(0,0,0,0);
     background: url("../images/iconSprite.png");
     margin: 0 10px;
-    display: inline-block;
+    display: block;
+    float: left;
 }
 
 a.iconFacebook{ background-position: 0 0;} 
@@ -201,6 +199,27 @@ a.iconTwitter:hover{ background-position: -407px 0;}
 a.iconUser{ background-position: -444px 0;} 
 a.iconUser:hover{ background-position: -481px 0;} 
 
+.currency_val{
+    text-align: center;
+}
+
+.currency{
+    font-size: 1.500em;
+    color: #00b2ed;
+}
+.val{
+    font-size: 3.000em;
+    color: #00b2ed;
+}
+
+.date_currency{
+    color: #00b2ed; 
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+
+
 /*HEADER*/
 #wrapper-header{
     width: 100%;
@@ -213,16 +232,6 @@ a.iconUser:hover{ background-position: -481px 0;}
         margin: 18px 0;
         float: left;
     }
-    .bar{
-        display: block;
-        width: 16px;
-        height: 4px;
-        border-radius: 0px;
-        background-color: #00b2ed;
-        margin-top: 2px;
-        margin-left: auto;
-        margin-right: auto;
-    }
     #btnMenu{
         height: 96px;
         width: 47px;
@@ -232,6 +241,16 @@ a.iconUser:hover{ background-position: -481px 0;}
         outline: none;
         border: none;
     }
+        .bar{
+            display: block;
+            width: 16px;
+            height: 4px;
+            border-radius: 0px;
+            background-color: #00b2ed;
+            margin-top: 2px;
+            margin-left: auto;
+            margin-right: auto;
+        }
         #btnMenu:hover,#btnMenu:active, #btnMenu:focus,#btnMenu.active{
             background: #ff5300;
             outline: none;
@@ -254,9 +273,19 @@ a.iconUser:hover{ background-position: -481px 0;}
         padding-left: 20px;
         padding-right: 20px;
     }
-    #menu a:hover{
-        background:#252525;
+        #menu a:hover{
+            background:#252525;
+        }
+    form#search{
+    margin-top: 32px;
+    float: left;
     }
+        .search{
+            display: none;
+        }
+        .navbar-form{
+            padding: 0;
+        }
 /*end - HEADER*/
 
 
@@ -333,8 +362,6 @@ a.iconUser:hover{ background-position: -481px 0;}
             float: left;
            /*width: 50%;*/
         }
-
-            
 
     .content-bottom{
         width: 100%;
@@ -439,6 +466,10 @@ a.iconUser:hover{ background-position: -481px 0;}
     
     .wrapperIcons{
         border-top: 1px solid #335c6f;
+        padding: 16px 0;
+    }
+    .content-bottom strong{
+        margin-bottom: 14px;
     }
 
 } 
@@ -450,7 +481,7 @@ a.iconUser:hover{ background-position: -481px 0;}
 /*********Medium screens**********/
 /* min-width 641px, medium screens */
 @media only screen and (min-width: 40.063em) { 
-    .currentNews{
+    .currentNew{
         margin-top: 10px;
         margin-bottom: 10px;
         width: 100%;
@@ -466,7 +497,6 @@ a.iconUser:hover{ background-position: -481px 0;}
     }
     #navIcon{
         margin-top: 32px;
-        padding: 0;
     }
     .search{
         display: block;
