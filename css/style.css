@@ -73,6 +73,7 @@ ul{
 a{
     color: #00b2ed;
     text-decoration: none;
+    outline: none;
 }
     a:hover{
         color: #ff5300;
@@ -80,12 +81,16 @@ a{
     }
 h1,h2,h3,h4,h5{
     color: #094969;
-    text-transform: uppercase;
+    
 }
 h1{   
     font-size: 2em;
     margin-top: 0px;
     margin-bottom: 22px;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 1.500em;
 }
 .textCenter{
     text-align: center;
@@ -131,20 +136,32 @@ button, input[type=button], input[type=reset], input[type=submit],.btn-default{
         color: #fff;
     }
 
-input[type="search"]{
-    color: #00b2ed;
+textarea, select, input[type="search"],input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="url"], input[type="text"],.form-control{
+    border-radius: 4px;
+    background: #ebebeb;
     border: none;
-    background-color: #094969;
     font-family: 'latoregular';
     font-size: 1em;
-    padding: 6px 45px 6px 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+
+input[type="search"]{
+    background: url("../images/iconSearch2.jpg") no-repeat right center #ebebeb;
+    padding-right: 45px;
+}
+
+#headerSearch{
+    color: #00b2ed;   
+    background-color: #094969;
     background: url("../images/iconSearch.jpg") no-repeat 270px center #094969;
     width: 300px;
     margin-right: 8px;
 }
-input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="url"], input[type="text"],.form-control{
 
-}
 .breadcrumb {
     padding: 21px 0px;
     margin-bottom: 0px;
@@ -217,6 +234,42 @@ a.iconUser:hover{ background-position: -481px 0;}
     width: 100%;
     text-align: center;
     float: left;
+    margin-bottom: 16px;
+}
+.panel-group .panel {
+    border-radius: 0px;
+}
+.panel-default{
+    border: none;
+}
+
+.panel-default .panel-heading {
+    color: #252525;
+    background-color: #FFF;
+    border: none;
+}
+.panel-group .panel-heading {
+    border-bottom: 0px none;
+}
+.panel-heading{
+    padding: 8px 10px;
+    cursor: pointer;
+}
+    .panel-heading:hover{
+        background: #ff5300;
+        color: #fff;
+    }
+    .panel-heading:hover a{
+        color: #fff;
+    }
+.panel-title a{
+    outline: none;
+    text-decoration: none;
+    color: #252525;
+}
+.panel-title a:hover{
+    color: #fff;
+    background: #ff5300;
 }
 
 
@@ -354,7 +407,7 @@ a.iconUser:hover{ background-position: -481px 0;}
             margin-right: 8px;
         }
         .content-top .news p{
-            width: 63%;
+            width: 60%;
             float: left;
         }
         .content-top .news a{
@@ -383,6 +436,10 @@ a.iconUser:hover{ background-position: -481px 0;}
         }
         .content-bottom img{
             margin-bottom: 13px;
+        }
+
+        #wrapper-content .textCenter{
+            letter-spacing: -0.2px;
         }
 /*end - CONTENT*/
 
@@ -418,6 +475,9 @@ a.iconUser:hover{ background-position: -481px 0;}
         float:left;
         margin-right:15px;
     }
+    .iconGmail{
+        margin: 0 10px 0 0;
+    }
 /*end - FOOTER*/
 
 
@@ -435,19 +495,6 @@ a.iconUser:hover{ background-position: -481px 0;}
     #wrapper-footer{
         padding: 24px 35px;
     }
-
-    #wrapper-footer div.social{
-        text-align: center;
-        margin: 32px auto 0 auto;
-        width: 160px;
-        display: block;
-        height: 32px;
-    }
-    #wrapper-footer p.social{
-        text-align: center;
-        border-bottom: 1px solid #075e83;
-        padding-bottom: 26px;
-    }
     img.img-responsive{
         width: 100%;
     }
@@ -456,22 +503,9 @@ a.iconUser:hover{ background-position: -481px 0;}
         margin-bottom: 10px;
         width: 100%;
     }
-    #wrapper-footer .info{
-        width: 50%;
-        margin: 0 auto;
-    }
     #wrapper-header #logo{
         margin: 18px 0 18px 15px;
-    }
-    
-    .wrapperIcons{
-        border-top: 1px solid #335c6f;
-        padding: 16px 0;
-    }
-    .content-bottom strong{
-        margin-bottom: 14px;
-    }
-
+    }   
 } 
 
 
@@ -502,6 +536,37 @@ a.iconUser:hover{ background-position: -481px 0;}
         display: block;
     }
 
+}
+@media (max-width: 991px) {
+     .wrapperIcons{
+        border-top: 1px solid #335c6f;
+        padding: 16px 0;
+    }
+    .content-bottom strong{
+        margin-bottom: 13px;
+    }
+    h1.textCenter, strong.subtitles{
+        margin-top: 16px;
+    }
+    #wrapper-footer div.social{
+        text-align: center;
+        margin: 32px auto 0 auto;
+        width: 160px;
+        display: block;
+        height: 32px;
+    }
+    #wrapper-footer p.social{
+        text-align: center;
+        border-bottom: 1px solid #075e83;
+        padding-bottom: 26px;
+    }
+    #wrapper-footer .info{
+        width: 195px;
+        margin: 0 auto;
+    }
+    .iconGmail{
+        margin: 0 0 0 0;
+    }
 }
 
 /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
