@@ -63,20 +63,166 @@
 
           <section class="list-cat">
           <div class="row">
-              <div class="col-md-2">
-                <img src="images/imageBlank.jpg" width="70" height="53" alt="">
-              </div>
-              <div class="col-md-7">
-                <h3>Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</h3>
+              <div class="col-xs-12 col-md-2">
+                <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
+               </div>
+              <div class="col-xs-12 col-md-7">
+                <a href="#">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
                 <p>Camilo Aldao (Córdoba)</p>
               </div>
-              <div class="col-md-3">
+              <div class="col-xs-12 col-md-3">
                 <strong class="money">$ 999,00.-</strong>
               </div>
           </div>
           </section>
 
+          <section class="list-cat">
+          <div class="row">
+              <div class="col-xs-12 col-md-2">
+                <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
+               </div>
+              <div class="col-xs-12 col-md-7">
+                <a href="#">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
+                <p>Camilo Aldao (Córdoba)</p>
+              </div>
+              <div class="col-xs-12 col-md-3">
+                <strong class="money">$ 999,00.-</strong>
+              </div>
+          </div>
+          </section>
 
+          <section class="list-cat">
+          <div class="row">
+              <div class="col-xs-12 col-md-2">
+                <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
+               </div>
+              <div class="col-xs-12 col-md-7">
+                <a href="#">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
+                <p>Camilo Aldao (Córdoba)</p>
+              </div>
+              <div class="col-xs-12 col-md-3">
+                <strong class="money">$ 999,00.-</strong>
+              </div>
+          </div>
+          </section>
+
+          <section class="list-cat">
+          <div class="row">
+              <div class="col-xs-12 col-md-2">
+                <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
+               </div>
+              <div class="col-xs-12 col-md-7">
+                <a href="#">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
+                <p>Camilo Aldao (Córdoba)</p>
+              </div>
+              <div class="col-xs-12 col-md-3">
+                <strong class="money">$ 999,00.-</strong>
+              </div>
+          </div>
+          </section>
+
+          <section class="list-cat">
+          <div class="row">
+              <div class="col-xs-12 col-md-2">
+                <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
+               </div>
+              <div class="col-xs-12 col-md-7">
+                <a href="#">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
+                <p>Camilo Aldao (Córdoba)</p>
+              </div>
+              <div class="col-xs-12 col-md-3">
+                <strong class="money">$ 999,00.-</strong>
+              </div>
+          </div>
+          </section>
+
+          <section class="list-cat">
+          <div class="row">
+              <div class="col-xs-12 col-md-2">
+                <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
+               </div>
+              <div class="col-xs-12 col-md-7">
+                <a href="#">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
+                <p>Camilo Aldao (Córdoba)</p>
+              </div>
+              <div class="col-xs-12 col-md-3">
+                <strong class="money">$ 999,00.-</strong>
+              </div>
+          </div>
+          </section>
+
+          <section class="list-cat">
+          <div class="row">
+              <div class="col-xs-12 col-md-2">
+                <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
+               </div>
+              <div class="col-xs-12 col-md-7">
+                <a href="#">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
+                <p>Camilo Aldao (Córdoba)</p>
+              </div>
+              <div class="col-xs-12 col-md-3">
+                <strong class="money">$ 999,00.-</strong>
+              </div>
+          </div>
+          </section>
+
+          <section class="list-cat">
+          <div class="row">
+              <div class="col-xs-12 col-md-2">
+                <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
+               </div>
+              <div class="col-xs-12 col-md-7">
+                <a href="#">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
+                <p>Camilo Aldao (Córdoba)</p>
+              </div>
+              <div class="col-xs-12 col-md-3">
+                <strong class="money">$ 999,00.-</strong>
+              </div>
+          </div>
+          </section>
+
+          <section class="list-cat">
+          <div class="row">
+              <div class="col-xs-12 col-md-2">
+                <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
+               </div>
+              <div class="col-xs-12 col-md-7">
+                <a href="#">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
+                <p>Camilo Aldao (Córdoba)</p>
+              </div>
+              <div class="col-xs-12 col-md-3">
+                <strong class="money">$ 999,00.-</strong>
+              </div>
+          </div>
+          </section>
+
+          <section class="list-cat">
+          <div class="row">
+              <div class="col-xs-12 col-md-2">
+                <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
+               </div>
+              <div class="col-xs-12 col-md-7">
+                <a href="#">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
+                <p>Camilo Aldao (Córdoba)</p>
+              </div>
+              <div class="col-xs-12 col-md-3">
+                <strong class="money">$ 999,00.-</strong>
+              </div>
+          </div>
+          </section>
+
+<div class="row">
+<div class="col-xs-12 col-md-12">
+<ul class="pagination">
+  <li><a href="#">1</a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+  <li><a href="#">&raquo;</a></li>
+</ul>
+</div>
+</div>
 
         </div>
         <div class="col-md-3">

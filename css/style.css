@@ -92,6 +92,11 @@ h1{
 h2{
     font-size: 1.500em;
 }
+h3{
+    margin: 0;
+    padding: 0;
+    font-size: 1.250em;
+}
 .textCenter{
     text-align: center;
     width: 100%;
@@ -521,8 +526,19 @@ a.iconUser:hover{ background-position: -481px 0;}
 }
 .list-cat img{
     float: left;
+    margin-right: 8px;
+    width: 100%;
 }
 
+.list-cat a{
+    color: #094969;
+    font-size: 1.250em;
+}
+
+.list-cat a:hover{
+    text-decoration: underline;
+    color: #ff5300;
+}
 .listSearch{
     margin-bottom: 8px;
 }
