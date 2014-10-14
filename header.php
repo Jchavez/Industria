@@ -22,7 +22,7 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-md-3">
-            <a href="index.php"><img src="images/logo.png" id="logo"></a>
+            <a href="index.php"><img src="images/logo.png" id="logo" alt="logo"></a>
             <nav id="menu">
               <button type="button" id="btnMenu">
                 <span class="bar"></span>

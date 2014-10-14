@@ -393,10 +393,13 @@
 </div>
               </section>
             </div>
+
+
             <div class="col-md-4">
               <section>
                 <h2>Subcategoría 2</h2>
-<div class="panel-group" id="accordion">
+
+<div class="panel-group" id="accordion1">
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
@@ -766,12 +769,16 @@
       </div>
     </div>
   </div>
+</div>
               </section>
             </div>
+
+
             <div class="col-md-4">
               <section>
                 <h2>Subcategoría 3</h2>
-<div class="panel-group" id="accordion">
+                
+<div class="panel-group" id="accordion2">
       <div class="panel panel-default">
         <div class="panel-heading">
           <h4 class="panel-title">
@@ -1262,11 +1269,11 @@
           <?php 
             require("last_news.php");
           ?>
-          <p><img src="images/imageBlank.jpg"></p>
+          <p><img src="images/imageBlank.jpg" alt=""></p>
           
-          <p><img src="images/imageBlank.jpg"></p>
+          <p><img src="images/imageBlank.jpg" alt=""></p>
           
-          <p><img src="images/imageBlank.jpg"></p>
+          <p><img src="images/imageBlank.jpg" alt=""></p>
           
         </div>
       </div>

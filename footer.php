@@ -24,7 +24,7 @@
               <p class="social">Seguinos en las <br/>Redes Sociales</p>
           </div>
           <div class="col-md-3">
-            <p class="info"><img src="images/iconDesarrolloRendoro.jpg" style="">
+            <p class="info"><img src="images/iconDesarrolloRendoro.jpg" alt="Desarrollo Rendoro">
             Desarrollo<br/> Rendoro Software</p>
           </div>
         </div>

@@ -148,6 +148,12 @@ textarea, select, input[type="search"],input[type="email"], input[type="number"]
     padding-right: 15px;
     width: 100%;
 }
+select{
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+   background: url("../images/iconSelect.jpg") right center  no-repeat #ebebeb; 
+}
 
 input[type="search"]{
     background: url("../images/iconSearch2.jpg") no-repeat right center #ebebeb;
@@ -515,6 +521,10 @@ a.iconUser:hover{ background-position: -481px 0;}
 }
 .list-cat img{
     float: left;
+}
+
+.listSearch{
+    margin-bottom: 8px;
 }
 
 
