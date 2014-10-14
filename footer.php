@@ -3,7 +3,7 @@
         <div class="row">
           <div class="col-md-3">
             <ul>
-              <li><a href="#">Acerca de Industria en la web</a></li>
+              <li><a href="empresa.php">Acerca de Industria en la web</a></li>
               <li><a href="#">Condiciones</a></li>
               <li><a href="#">Privacidad</a></li>
             </ul>

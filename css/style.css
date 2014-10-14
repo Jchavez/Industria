@@ -44,21 +44,31 @@
     font-weight: normal;
     font-style: normal;
 }
-img {
-  display: inline-block;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  cursor: pointer;
+@font-face {
+    font-family: 'latolight';
+    src: url('../fonts/lato-light-webfont.eot');
+    src: url('../fonts/lato-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-light-webfont.woff2') format('woff2'),
+         url('../fonts/lato-light-webfont.woff') format('woff'),
+         url('../fonts/lato-light-webfont.ttf') format('truetype'),
+         url('../fonts/lato-light-webfont.svg#latolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
-img:hover, img:focus, img:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+@font-face {
+    font-family: 'latolight_italic';
+    src: url('../fonts/lato-lightitalic-webfont.eot');
+    src: url('../fonts/lato-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/lato-lightitalic-webfont.woff') format('woff'),
+         url('../fonts/lato-lightitalic-webfont.ttf') format('truetype'),
+         url('../fonts/lato-lightitalic-webfont.svg#latolight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
+
 
 html, body{
     font-family: 'latoregular';
@@ -96,6 +106,25 @@ h3{
     margin: 0;
     padding: 0;
     font-size: 1.250em;
+}
+img {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+img:hover, img:focus, img:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+p.large{
+    font-family: 'latolight';
+    font-size: 1.500em;
 }
 .textCenter{
     text-align: center;
@@ -157,7 +186,10 @@ select{
     -webkit-appearance:none;
     -moz-appearance:none;
     appearance:none;
-   background: url("../images/iconSelect.jpg") right center  no-repeat #ebebeb; 
+   background-image: url("../images/iconSelect.jpg");
+   background-position:  right center;
+   background-repeat:   no-repeat;
+   background-color:  #ebebeb; 
 }
 
 input[type="search"]{
@@ -311,6 +343,33 @@ a.iconUser:hover{ background-position: -481px 0;}
     float: right;
     margin: 4px 0 0 0;
     font-weight: normal; 
+}
+.pagination>li:first-child>a, .pagination>li:first-child>span{
+    margin-left: 0;
+    border-radius: 4px;
+}
+.pagination>li>a.active, .pagination>li>span.active{
+    background: #00b2ed;
+    color: #fff;
+}
+.pagination>li>a, .pagination>li>span{
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #252525;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+    margin-right: 6px;
+    border-radius: 4px;
+}
+
+.pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus {
+    color: #fff;
+    background-color: #ff5300;
+    border-color: #ff5300;
 }
 
 /*HEADER*/
@@ -539,10 +598,45 @@ a.iconUser:hover{ background-position: -481px 0;}
     text-decoration: underline;
     color: #ff5300;
 }
+.list-cat p{
+    margin: 0;
+}
 .listSearch{
     margin-bottom: 8px;
 }
 
+.orderList span{
+    float: left;
+}
+
+select.noBackground{
+    border: 1px solid #ebebeb;
+    background-color: transparent;
+    background-image: url("../images/iconSelect.png");
+}
+a.iconOrderList1{
+    display: block;
+    width: 22px;
+    height:22px;
+    background: url("../images/iconOrderList1.jpg");
+    float: left;
+    margin-left: 18px;
+}
+    a:hover.iconOrderList1{
+        background: url("../images/iconOrderList1-hover.jpg");
+    }
+
+a.iconOrderList2{
+    display: block;
+    width: 22px;
+    height:22px;
+    background: url("../images/iconOrderList2.jpg");
+    float: left;
+    margin-left: 8px;
+}
+    a:hover.iconOrderList2{
+        background: url("../images/iconOrderList2-hover.jpg");
+    }
 
 /*********Small screens**********/
 /* Define mobile styles */
@@ -568,6 +662,15 @@ a.iconUser:hover{ background-position: -481px 0;}
     #wrapper-header #logo{
         margin: 18px 0 18px 15px;
     }   
+    .hide_this{
+        display: none;
+    }
+    .orderList{
+        margin-bottom: 16px;
+        display: block;
+        float: left;
+        width: 100%;
+    }
 } 
 
 

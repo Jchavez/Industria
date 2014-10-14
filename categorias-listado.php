@@ -1,5 +1,6 @@
 <?php 
   require("header.php");
+  require("breadcrumb.php");
 ?>
 
 <section id="wrapper-content">
@@ -47,7 +48,7 @@
             <div class="col-md-4">
               <div class="row">
                 <div class="col-md-12">
-                  <select class="listSearch">
+                  <select class="listSearch noBackground">
                     <option value="Ordenar por..">Ordenar por...</option>
                     <option value="1">1</option>
                   </select>
@@ -55,7 +56,10 @@
               </div>
               <div class="row">
                 <div class="col-md-12">
-                  <p>Seleccionar su vista</p>
+                  <p class="orderList"><span>Seleccionar su vista</span>
+                  <a href="#" class="iconOrderList1"></a>
+                  <a href="#" class="iconOrderList2"></a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -214,7 +218,7 @@
 <div class="row">
 <div class="col-xs-12 col-md-12">
 <ul class="pagination">
-  <li><a href="#">1</a></li>
+  <li><a href="#" class="active">1</a></li>
   <li><a href="#">2</a></li>
   <li><a href="#">3</a></li>
   <li><a href="#">4</a></li>
@@ -229,11 +233,11 @@
           <?php 
             require("last_news.php");
           ?>
-          <p><img src="images/imageBlank.jpg" alt=""></p>
+          <p><img src="images/imageBlank.jpg" alt="" class="hide_this"></p>
           
-          <p><img src="images/imageBlank.jpg" alt=""></p>
+          <p><img src="images/imageBlank.jpg" alt="" class="hide_this"></p>
           
-          <p><img src="images/imageBlank.jpg" alt=""></p>
+          <p><img src="images/imageBlank.jpg" alt="" class="hide_this"></p>
           
         </div>
       </div>

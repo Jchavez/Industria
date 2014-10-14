@@ -1,5 +1,6 @@
 <?php 
   require("header.php");
+  require("breadcrumb.php");
 ?>
 
 <section id="wrapper-content">
@@ -34,22 +35,22 @@
     <div id="collapse1" class="panel-collapse collapse">
       <div class="panel-body">
         <ul class="nav nav-pills nav-stacked">
-          <li><a href="">Autodescargables</a></li>
-          <li><a href="">Balancín</a></li>
-          <li><a href="">Carretones</a></li>
-          <li><a href="">Cisterna</a></li>
-          <li><a href="">Fijos</a></li>
-          <li><a href="">Forestales</a></li>
-          <li><a href="">Forrajeros</a></li>
-          <li><a href="">Jaula</a></li>
-          <li><a href="">Multipropositos</a></li>
-          <li><a href="">Paleteros</a></li>
-          <li><a href="">Playos</a></li>
-          <li><a href="">Semilleros</a></li>
-          <li><a href="">Taller</a></li>
-          <li><a href="">Tanque</a></li>
-          <li><a href="">Volcadores</a></li>
-          <li><a href="">Volquetes</a></li>
+          <li><a href="categorias-listado.php">Autodescargables</a></li>
+          <li><a href="categorias-listado.php">Balancín</a></li>
+          <li><a href="categorias-listado.php">Carretones</a></li>
+          <li><a href="categorias-listado.php">Cisterna</a></li>
+          <li><a href="categorias-listado.php">Fijos</a></li>
+          <li><a href="categorias-listado.php">Forestales</a></li>
+          <li><a href="categorias-listado.php">Forrajeros</a></li>
+          <li><a href="categorias-listado.php">Jaula</a></li>
+          <li><a href="categorias-listado.php">Multipropositos</a></li>
+          <li><a href="categorias-listado.php">Paleteros</a></li>
+          <li><a href="categorias-listado.php">Playos</a></li>
+          <li><a href="categorias-listado.php">Semilleros</a></li>
+          <li><a href="categorias-listado.php">Taller</a></li>
+          <li><a href="categorias-listado.php">Tanque</a></li>
+          <li><a href="categorias-listado.php">Volcadores</a></li>
+          <li><a href="categorias-listado.php">Volquetes</a></li>
         </ul>
       </div>
     </div>
@@ -67,9 +68,9 @@
     <div id="collapse2" class="panel-collapse collapse">
       <div class="panel-body">
         <ul class="nav nav-pills nav-stacked">
-          <li><a href="">Autodescargables</a></li>
-          <li><a href="">Balancín</a></li>
-          <li><a href="">Carretones</a></li>
+          <li><a href="categorias-listado.php">Autodescargables</a></li>
+          <li><a href="categorias-listado.php">Balancín</a></li>
+          <li><a href="categorias-listado.php">Carretones</a></li>
         </ul>
       </div>
     </div>
@@ -129,9 +130,9 @@
     <div id="collapse6" class="panel-collapse collapse">
       <div class="panel-body">
         <ul class="nav nav-pills nav-stacked">
-          <li><a href="">Autodescargables</a></li>
-          <li><a href="">Balancín</a></li>
-          <li><a href="">Carretones</a></li>
+          <li><a href="categorias-listado.php">Autodescargables</a></li>
+          <li><a href="categorias-listado.php">Balancín</a></li>
+          <li><a href="categorias-listado.php">Carretones</a></li>
         </ul>
       </div>
     </div>
@@ -149,9 +150,9 @@
     <div id="collapse7" class="panel-collapse collapse">
       <div class="panel-body">
         <ul class="nav nav-pills nav-stacked">
-          <li><a href="">Autodescargables</a></li>
-          <li><a href="">Balancín</a></li>
-          <li><a href="">Carretones</a></li>
+          <li><a href="categorias-listado.php">Autodescargables</a></li>
+          <li><a href="categorias-listado.php">Balancín</a></li>
+          <li><a href="categorias-listado.php">Carretones</a></li>
         </ul>
       </div>
     </div>
@@ -225,9 +226,9 @@
     <div id="collapse12" class="panel-collapse collapse">
       <div class="panel-body">
         <ul class="nav nav-pills nav-stacked">
-          <li><a href="">Autodescargables</a></li>
-          <li><a href="">Balancín</a></li>
-          <li><a href="">Carretones</a></li>
+          <li><a href="categorias-listado.php">Autodescargables</a></li>
+          <li><a href="categorias-listado.php">Balancín</a></li>
+          <li><a href="categorias-listado.php">Carretones</a></li>
         </ul>
       </div>
     </div>
@@ -273,9 +274,9 @@
     <div id="collapse15" class="panel-collapse collapse">
       <div class="panel-body">
         <ul class="nav nav-pills nav-stacked">
-          <li><a href="">Autodescargables</a></li>
-          <li><a href="">Balancín</a></li>
-          <li><a href="">Carretones</a></li>
+          <li><a href="categorias-listado.php">Autodescargables</a></li>
+          <li><a href="categorias-listado.php">Balancín</a></li>
+          <li><a href="categorias-listado.php">Carretones</a></li>
         </ul>
       </div>
     </div>
@@ -349,9 +350,9 @@
     <div id="collapse20" class="panel-collapse collapse">
       <div class="panel-body">
         <ul class="nav nav-pills nav-stacked">
-          <li><a href="">Autodescargables</a></li>
-          <li><a href="">Balancín</a></li>
-          <li><a href="">Carretones</a></li>
+          <li><a href="categorias-listado.php">Autodescargables</a></li>
+          <li><a href="categorias-listado.php">Balancín</a></li>
+          <li><a href="categorias-listado.php">Carretones</a></li>
         </ul>
       </div>
     </div>
@@ -369,9 +370,9 @@
     <div id="collapse21" class="panel-collapse collapse">
       <div class="panel-body">
         <ul class="nav nav-pills nav-stacked">
-          <li><a href="">Autodescargables</a></li>
-          <li><a href="">Balancín</a></li>
-          <li><a href="">Carretones</a></li>
+          <li><a href="categorias-listado.php">Autodescargables</a></li>
+          <li><a href="categorias-listado.php">Balancín</a></li>
+          <li><a href="categorias-listado.php">Carretones</a></li>
         </ul>
       </div>
     </div>
@@ -412,9 +413,9 @@
     <div id="collapse23" class="panel-collapse collapse">
       <div class="panel-body">
         <ul class="nav nav-pills nav-stacked">
-          <li><a href="">Autodescargables</a></li>
-          <li><a href="">Balancín</a></li>
-          <li><a href="">Carretones</a></li>
+          <li><a href="categorias-listado.php">Autodescargables</a></li>
+          <li><a href="categorias-listado.php">Balancín</a></li>
+          <li><a href="categorias-listado.php">Carretones</a></li>
         </ul>
       </div>
     </div>
@@ -530,9 +531,9 @@
     <div id="collapse31" class="panel-collapse collapse">
       <div class="panel-body">
         <ul class="nav nav-pills nav-stacked">
-          <li><a href="">Autodescargables</a></li>
-          <li><a href="">Balancín</a></li>
-          <li><a href="">Carretones</a></li>
+          <li><a href="categorias-listado.php">Autodescargables</a></li>
+          <li><a href="categorias-listado.php">Balancín</a></li>
+          <li><a href="categorias-listado.php">Carretones</a></li>
         </ul>
       </div>
     </div>
@@ -550,9 +551,9 @@
     <div id="collapse32" class="panel-collapse collapse">
       <div class="panel-body">
         <ul class="nav nav-pills nav-stacked">
-          <li><a href="">Autodescargables</a></li>
-          <li><a href="">Balancín</a></li>
-          <li><a href="">Carretones</a></li>
+          <li><a href="categorias-listado.php">Autodescargables</a></li>
+          <li><a href="categorias-listado.php">Balancín</a></li>
+          <li><a href="categorias-listado.php">Carretones</a></li>
         </ul>
       </div>
     </div>
@@ -570,9 +571,9 @@
     <div id="collapse33" class="panel-collapse collapse">
       <div class="panel-body">
         <ul class="nav nav-pills nav-stacked">
-          <li><a href="">Autodescargables</a></li>
-          <li><a href="">Balancín</a></li>
-          <li><a href="">Carretones</a></li>
+          <li><a href="categorias-listado.php">Autodescargables</a></li>
+          <li><a href="categorias-listado.php">Balancín</a></li>
+          <li><a href="categorias-listado.php">Carretones</a></li>
         </ul>
       </div>
     </div>
@@ -604,9 +605,9 @@
     <div id="collapse35" class="panel-collapse collapse">
       <div class="panel-body">
         <ul class="nav nav-pills nav-stacked">
-          <li><a href="">Autodescargables</a></li>
-          <li><a href="">Balancín</a></li>
-          <li><a href="">Carretones</a></li>
+          <li><a href="categorias-listado.php">Autodescargables</a></li>
+          <li><a href="categorias-listado.php">Balancín</a></li>
+          <li><a href="categorias-listado.php">Carretones</a></li>
         </ul>
       </div>
     </div>
@@ -679,9 +680,9 @@
     <div id="collapse40" class="panel-collapse collapse">
       <div class="panel-body">
         <ul class="nav nav-pills nav-stacked">
-          <li><a href="">Autodescargables</a></li>
-          <li><a href="">Balancín</a></li>
-          <li><a href="">Carretones</a></li>
+          <li><a href="categorias-listado.php">Autodescargables</a></li>
+          <li><a href="categorias-listado.php">Balancín</a></li>
+          <li><a href="categorias-listado.php">Carretones</a></li>
         </ul>
       </div>
     </div>
@@ -699,9 +700,9 @@
     <div id="collapse41" class="panel-collapse collapse">
       <div class="panel-body">
         <ul class="nav nav-pills nav-stacked">
-          <li><a href="">Autodescargables</a></li>
-          <li><a href="">Balancín</a></li>
-          <li><a href="">Carretones</a></li>
+          <li><a href="categorias-listado.php">Autodescargables</a></li>
+          <li><a href="categorias-listado.php">Balancín</a></li>
+          <li><a href="categorias-listado.php">Carretones</a></li>
         </ul>
       </div>
     </div>
@@ -762,9 +763,9 @@
     <div id="collapse45" class="panel-collapse collapse">
       <div class="panel-body">
         <ul class="nav nav-pills nav-stacked">
-          <li><a href="">Autodescargables</a></li>
-          <li><a href="">Balancín</a></li>
-          <li><a href="">Carretones</a></li>
+          <li><a href="categorias-listado.php">Autodescargables</a></li>
+          <li><a href="categorias-listado.php">Balancín</a></li>
+          <li><a href="categorias-listado.php">Carretones</a></li>
         </ul>
       </div>
     </div>
@@ -806,9 +807,9 @@
         <div id="collapse47" class="panel-collapse collapse">
           <div class="panel-body">
             <ul class="nav nav-pills nav-stacked">
-              <li><a href="">Autodescargables</a></li>
-              <li><a href="">Balancín</a></li>
-              <li><a href="">Carretones</a></li>
+              <li><a href="categorias-listado.php">Autodescargables</a></li>
+              <li><a href="categorias-listado.php">Balancín</a></li>
+              <li><a href="categorias-listado.php">Carretones</a></li>
             </ul>
           </div>
         </div>
@@ -855,9 +856,9 @@
         <div id="collapse50" class="panel-collapse collapse">
           <div class="panel-body">
             <ul class="nav nav-pills nav-stacked">
-              <li><a href="">Autodescargables</a></li>
-              <li><a href="">Balancín</a></li>
-              <li><a href="">Carretones</a></li>
+              <li><a href="categorias-listado.php">Autodescargables</a></li>
+              <li><a href="categorias-listado.php">Balancín</a></li>
+              <li><a href="categorias-listado.php">Carretones</a></li>
             </ul>
           </div>
         </div>
@@ -875,9 +876,9 @@
         <div id="collapse51" class="panel-collapse collapse">
           <div class="panel-body">
             <ul class="nav nav-pills nav-stacked">
-              <li><a href="">Autodescargables</a></li>
-              <li><a href="">Balancín</a></li>
-              <li><a href="">Carretones</a></li>
+              <li><a href="categorias-listado.php">Autodescargables</a></li>
+              <li><a href="categorias-listado.php">Balancín</a></li>
+              <li><a href="categorias-listado.php">Carretones</a></li>
             </ul>
           </div>
         </div>
@@ -909,9 +910,9 @@
         <div id="collapse53" class="panel-collapse collapse">
           <div class="panel-body">
             <ul class="nav nav-pills nav-stacked">
-              <li><a href="">Autodescargables</a></li>
-              <li><a href="">Balancín</a></li>
-              <li><a href="">Carretones</a></li>
+              <li><a href="categorias-listado.php">Autodescargables</a></li>
+              <li><a href="categorias-listado.php">Balancín</a></li>
+              <li><a href="categorias-listado.php">Carretones</a></li>
             </ul>
           </div>
         </div>
@@ -929,9 +930,9 @@
         <div id="collapse54" class="panel-collapse collapse">
           <div class="panel-body">
             <ul class="nav nav-pills nav-stacked">
-              <li><a href="">Autodescargables</a></li>
-              <li><a href="">Balancín</a></li>
-              <li><a href="">Carretones</a></li>
+              <li><a href="categorias-listado.php">Autodescargables</a></li>
+              <li><a href="categorias-listado.php">Balancín</a></li>
+              <li><a href="categorias-listado.php">Carretones</a></li>
             </ul>
           </div>
         </div>
@@ -963,9 +964,9 @@
         <div id="collapse56" class="panel-collapse collapse">
           <div class="panel-body">
             <ul class="nav nav-pills nav-stacked">
-              <li><a href="">Autodescargables</a></li>
-              <li><a href="">Balancín</a></li>
-              <li><a href="">Carretones</a></li>
+              <li><a href="categorias-listado.php">Autodescargables</a></li>
+              <li><a href="categorias-listado.php">Balancín</a></li>
+              <li><a href="categorias-listado.php">Carretones</a></li>
             </ul>
           </div>
         </div>
@@ -1053,9 +1054,9 @@
         <div id="collapse62" class="panel-collapse collapse">
           <div class="panel-body">
             <ul class="nav nav-pills nav-stacked">
-              <li><a href="">Autodescargables</a></li>
-              <li><a href="">Balancín</a></li>
-              <li><a href="">Carretones</a></li>
+              <li><a href="categorias-listado.php">Autodescargables</a></li>
+              <li><a href="categorias-listado.php">Balancín</a></li>
+              <li><a href="categorias-listado.php">Carretones</a></li>
             </ul>
           </div>
         </div>
@@ -1073,9 +1074,9 @@
         <div id="collapse63" class="panel-collapse collapse">
           <div class="panel-body">
             <ul class="nav nav-pills nav-stacked">
-              <li><a href="">Autodescargables</a></li>
-              <li><a href="">Balancín</a></li>
-              <li><a href="">Carretones</a></li>
+              <li><a href="categorias-listado.php">Autodescargables</a></li>
+              <li><a href="categorias-listado.php">Balancín</a></li>
+              <li><a href="categorias-listado.php">Carretones</a></li>
             </ul>
           </div>
         </div>
@@ -1093,9 +1094,9 @@
         <div id="collapse64" class="panel-collapse collapse">
           <div class="panel-body">
             <ul class="nav nav-pills nav-stacked">
-              <li><a href="">Autodescargables</a></li>
-              <li><a href="">Balancín</a></li>
-              <li><a href="">Carretones</a></li>
+              <li><a href="categorias-listado.php">Autodescargables</a></li>
+              <li><a href="categorias-listado.php">Balancín</a></li>
+              <li><a href="categorias-listado.php">Carretones</a></li>
             </ul>
           </div>
         </div>
@@ -1113,9 +1114,9 @@
         <div id="collapse65" class="panel-collapse collapse">
           <div class="panel-body">
             <ul class="nav nav-pills nav-stacked">
-              <li><a href="">Autodescargables</a></li>
-              <li><a href="">Balancín</a></li>
-              <li><a href="">Carretones</a></li>
+              <li><a href="categorias-listado.php">Autodescargables</a></li>
+              <li><a href="categorias-listado.php">Balancín</a></li>
+              <li><a href="categorias-listado.php">Carretones</a></li>
             </ul>
           </div>
         </div>
@@ -1162,9 +1163,9 @@
         <div id="collapse68" class="panel-collapse collapse">
           <div class="panel-body">
             <ul class="nav nav-pills nav-stacked">
-              <li><a href="">Autodescargables</a></li>
-              <li><a href="">Balancín</a></li>
-              <li><a href="">Carretones</a></li>
+              <li><a href="categorias-listado.php">Autodescargables</a></li>
+              <li><a href="categorias-listado.php">Balancín</a></li>
+              <li><a href="categorias-listado.php">Carretones</a></li>
             </ul>
           </div>
         </div>
@@ -1182,9 +1183,9 @@
         <div id="collapse69" class="panel-collapse collapse">
           <div class="panel-body">
             <ul class="nav nav-pills nav-stacked">
-              <li><a href="">Autodescargables</a></li>
-              <li><a href="">Balancín</a></li>
-              <li><a href="">Carretones</a></li>
+              <li><a href="categorias-listado.php">Autodescargables</a></li>
+              <li><a href="categorias-listado.php">Balancín</a></li>
+              <li><a href="categorias-listado.php">Carretones</a></li>
             </ul>
           </div>
         </div>
@@ -1269,11 +1270,11 @@
           <?php 
             require("last_news.php");
           ?>
-          <p><img src="images/imageBlank.jpg" alt=""></p>
+          <p><img src="images/imageBlank.jpg" alt="" class="hide_this"></p>
           
-          <p><img src="images/imageBlank.jpg" alt=""></p>
+          <p><img src="images/imageBlank.jpg" alt="" class="hide_this"></p>
           
-          <p><img src="images/imageBlank.jpg" alt=""></p>
+          <p><img src="images/imageBlank.jpg" alt="" class="hide_this"></p>
           
         </div>
       </div>

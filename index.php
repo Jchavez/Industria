@@ -14,7 +14,7 @@
               <h1>CATEGORÍAS</h1>
               <ul class="nav nav-pills nav-stacked">
                 <li class="active"><a href="categorias.php">Maquinarias</a></li>
-                <li><a href="categorias-listado.php">Inmuebles Rurales</a></li>
+                <li><a href="categorias.php">Inmuebles Rurales</a></li>
                 <li><a href="categorias.php">Equipamientos</a></li>
                 <li><a href="categorias.php">Agroinsumos</a></li>
                 <li><a href="categorias.php">Servicios</a></li>
