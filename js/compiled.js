@@ -9,13 +9,15 @@ $(document).ready(function() {
 		$('#menu ul').slideUp();
 	});
 
-/*
-	$('#menu').hover)(function () {
-		$('#menu').show();
-	}, function () {
-		$('#menu').hide();
+	$('.collapse').on('shown.bs.collapse', function(){
+		$(this).parent().find(".tog").addClass("activeAccordion");
+		$(this).parent().find(".glyphicon-plus").removeClass("glyphicon-plus").addClass("glyphicon-minus");
+	}).on('hidden.bs.collapse', function(){
+		$(this).parent().find(".tog").removeClass("activeAccordion");
+		$(this).parent().find(".glyphicon-minus").removeClass("glyphicon-minus").addClass("glyphicon-plus");
 	});
-*/
+
+	
 });
 
 

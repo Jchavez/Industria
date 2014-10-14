@@ -249,8 +249,10 @@ a.iconUser:hover{ background-position: -481px 0;}
     border: none;
 }
 .panel-group .panel-heading {
-    border-bottom: 0px none;
+    border-top: 1px solid #d3d3d3;
+    padding: 0px;
 }
+
 .panel-heading{
     padding: 8px 10px;
     cursor: pointer;
@@ -266,12 +268,39 @@ a.iconUser:hover{ background-position: -481px 0;}
     outline: none;
     text-decoration: none;
     color: #252525;
+    width: 100%;
+    padding: 7px 10px;
+    display: block;
+    letter-spacing: -1px
 }
-.panel-title a:hover{
+.panel-title a:hover, .panel-title a.activeAccordion{
     color: #fff;
     background: #ff5300;
 }
-
+.panel-default>.panel-heading+.panel-collapse>.panel-body{
+    padding: 0;
+    background-color: #ff5300;
+}
+.panel-body .nav-pills li a{
+    color: #fff;
+    padding: 5px 15px;
+}
+.panel-body .nav-pills li a:hover{
+    background: #252525;
+}
+.panel-body .nav-pills li{
+    border: none;
+}
+.panel-group .panel+.panel {
+    margin-top: 0px; 
+}
+.glyphicon{
+    font-size: 9px;
+    text-align: right;
+    float: right;
+    margin: 4px 0 0 0;
+    font-weight: normal; 
+}
 
 /*HEADER*/
 #wrapper-header{
