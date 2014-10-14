@@ -55,6 +55,24 @@
               </div>
             </div>
           </div>
+
+          <section class="list-cat">
+          <div class="row">
+              <div class="col-md-2">
+                <img src="images/imageBlank.jpg" width="70" height="53">
+              </div>
+              <div class="col-md-7">
+                <h3>Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</h3>
+                <p>Camilo Aldao (Córdoba)</p>
+              </div>
+              <div class="col-md-3">
+                <strong class="money">$ 999,00.-</strong>
+              </div>
+          </div>
+          </section>
+
+
+
         </div>
         <div class="col-md-3">
           <?php 

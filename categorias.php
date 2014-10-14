@@ -1146,54 +1146,19 @@
       <div class="panel panel-default">
         <div class="panel-heading">
           <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse66" class="tog">
-              Tolvas
-              <span class="glyphicon glyphicon-plus"></span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapse66" class="panel-collapse collapse">
-          <div class="panel-body">
-            <ul class="nav nav-pills nav-stacked">
-              <li><a href="">Autodescargables</a></li>
-              <li><a href="">Balancín</a></li>
-              <li><a href="">Carretones</a></li>
-            </ul>
-          </div>
-        </div>
-      </div> 
-
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse67" class="tog">
-              Tractores
-              <span class="glyphicon glyphicon-plus"></span>
-            </a>
-          </h4>
-        </div>
-        <div id="collapse67" class="panel-collapse collapse">
-          <div class="panel-body">
-            <ul class="nav nav-pills nav-stacked">
-              <li><a href="">Autodescargables</a></li>
-              <li><a href="">Balancín</a></li>
-              <li><a href="">Carretones</a></li>
-            </ul>
-          </div>
-        </div>
-      </div> 
-
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
             <a data-toggle="collapse" data-parent="#accordion" href="#collapse68" class="tog">
-              Tractousinas
+              Tolvas
               <span class="glyphicon glyphicon-plus"></span>
             </a>
           </h4>
         </div>
         <div id="collapse68" class="panel-collapse collapse">
           <div class="panel-body">
+            <ul class="nav nav-pills nav-stacked">
+              <li><a href="">Autodescargables</a></li>
+              <li><a href="">Balancín</a></li>
+              <li><a href="">Carretones</a></li>
+            </ul>
           </div>
         </div>
       </div> 
@@ -1202,24 +1167,27 @@
         <div class="panel-heading">
           <h4 class="panel-title">
             <a data-toggle="collapse" data-parent="#accordion" href="#collapse69" class="tog">
-              Trailers
+              Tractores
               <span class="glyphicon glyphicon-plus"></span>
             </a>
           </h4>
         </div>
         <div id="collapse69" class="panel-collapse collapse">
           <div class="panel-body">
+            <ul class="nav nav-pills nav-stacked">
+              <li><a href="">Autodescargables</a></li>
+              <li><a href="">Balancín</a></li>
+              <li><a href="">Carretones</a></li>
+            </ul>
           </div>
         </div>
       </div> 
-
 
       <div class="panel panel-default">
         <div class="panel-heading">
           <h4 class="panel-title">
             <a data-toggle="collapse" data-parent="#accordion" href="#collapse70" class="tog">
-              Trieurs
-              <span class="glyphicon glyphicon-plus"></span>
+              Tractousinas
             </a>
           </h4>
         </div>
@@ -1233,8 +1201,7 @@
         <div class="panel-heading">
           <h4 class="panel-title">
             <a data-toggle="collapse" data-parent="#accordion" href="#collapse71" class="tog">
-              Trituradoras de rastrojos
-              <span class="glyphicon glyphicon-plus"></span>
+              Trailers
             </a>
           </h4>
         </div>
@@ -1244,16 +1211,44 @@
         </div>
       </div> 
 
+
       <div class="panel panel-default">
         <div class="panel-heading">
           <h4 class="panel-title">
             <a data-toggle="collapse" data-parent="#accordion" href="#collapse72" class="tog">
-              Vendimiadoras
-              <span class="glyphicon glyphicon-plus"></span>
+              Trieurs
             </a>
           </h4>
         </div>
         <div id="collapse72" class="panel-collapse collapse">
+          <div class="panel-body">
+          </div>
+        </div>
+      </div> 
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse73" class="tog">
+              Trituradoras de rastrojos
+            </a>
+          </h4>
+        </div>
+        <div id="collapse73" class="panel-collapse collapse">
+          <div class="panel-body">
+          </div>
+        </div>
+      </div> 
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse74" class="tog">
+              Vendimiadoras
+            </a>
+          </h4>
+        </div>
+        <div id="collapse74" class="panel-collapse collapse">
           <div class="panel-body">
           </div>
         </div>

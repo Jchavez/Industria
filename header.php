@@ -30,13 +30,13 @@
                 <span class="bar"></span>
               </button>
               <ul class="nav">
-                  <li class=""><a href="#">Maquinarias</a></li>
-                  <li class=""><a href="#">Inmuebles Rurales</a></li>
-                  <li class=""><a href="#">Equipamientos</a></li>
-                  <li class=""><a href="#">Agroinsumos</a></li>
-                  <li class=""><a href="#">Servicios</a></li>
-                  <li class=""><a href="#">Animales</a></li>
-                  <li class=""><a href="#">AgroEmpleos</a></li>
+                  <li class=""><a href="categorias.php">Maquinarias</a></li>
+                  <li class=""><a href="categorias.php">Inmuebles Rurales</a></li>
+                  <li class=""><a href="categorias.php">Equipamientos</a></li>
+                  <li class=""><a href="categorias.php">Agroinsumos</a></li>
+                  <li class=""><a href="categorias.php">Servicios</a></li>
+                  <li class=""><a href="categorias.php">Animales</a></li>
+                  <li class=""><a href="categorias.php">AgroEmpleos</a></li>
                   <li class=""><a href="planes.php">Planes</a></li>
                   <li class=""><a href="#">FAQ</a></li>
                   <li class=""><a href="#">Quienes somos</a></li>

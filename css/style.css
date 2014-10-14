@@ -459,7 +459,7 @@ a.iconUser:hover{ background-position: -481px 0;}
         .content-bottom a:hover{
             color: #ff5300;
         }
-        .content-bottom strong{
+        .content-bottom strong, strong.money{
             color: #00b2ed;
             font-size: 1.500em;
         }
@@ -509,6 +509,13 @@ a.iconUser:hover{ background-position: -481px 0;}
     }
 /*end - FOOTER*/
 
+.list-cat{
+    padding: 16px 0;
+    border-top: 1px solid #d3d3d3;
+}
+.list-cat img{
+    float: left;
+}
 
 
 /*********Small screens**********/

@@ -14,12 +14,12 @@
               <h1>CATEGORÍAS</h1>
               <ul class="nav nav-pills nav-stacked">
                 <li class="active"><a href="categorias.php">Maquinarias</a></li>
-                <li><a href="#">Inmuebles Rurales</a></li>
-                <li><a href="#">Equipamientos</a></li>
-                <li><a href="#">Agroinsumos</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Animales</a></li>
-                <li><a href="#">AgroEmpleos</a></li>
+                <li><a href="categorias-listado.php">Inmuebles Rurales</a></li>
+                <li><a href="categorias.php">Equipamientos</a></li>
+                <li><a href="categorias.php">Agroinsumos</a></li>
+                <li><a href="categorias.php">Servicios</a></li>
+                <li><a href="categorias.php">Animales</a></li>
+                <li><a href="categorias.php">AgroEmpleos</a></li>
                 <li><a href="#" class="active">FAQ</a></li>
                 <li><a href="#" class="active">Quienes somos</a></li>
                 <li><a href="#" class="active">Contacto  </a></li>
