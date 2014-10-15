@@ -8,7 +8,6 @@
          url('../fonts/lato-regular-webfont.svg#latoregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 @font-face {
     font-family: 'latoitalic';
@@ -20,7 +19,6 @@
          url('../fonts/lato-italic-webfont.svg#latoitalic') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 @font-face {
     font-family: 'latobold_italic';
@@ -66,10 +64,7 @@
          url('../fonts/lato-lightitalic-webfont.svg#latolight_italic') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
 html, body{
     font-family: 'latoregular';
     font-size: 1em;
@@ -110,79 +105,36 @@ h3{
 /* 2D TRANSITIONS */
 /* Grow */
 .grow {
-  display: inline-block;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  cursor: pointer;
+    display: inline-block;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    cursor: pointer;
 }
 .grow:hover, .grow:focus, .grow:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 /* Shrink */
 .shrink {
-  display: inline-block;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  cursor: pointer;
+    display: inline-block;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    cursor: pointer;
 }
 .shrink:hover, .shrink:focus, .shrink:active {
-  -webkit-transform: scale(0.9);
-  transform: scale(0.9);
-}
-
-
-/* Push */
-@-webkit-keyframes push {
-  50% {
-    -webkit-transform: scale(0.8);
-    transform: scale(0.8);
-  }
-
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-
-@keyframes push {
-  50% {
-    -webkit-transform: scale(0.8);
-    transform: scale(0.8);
-  }
-
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-
-.push {
-  display: inline-block;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-}
-.push:hover, .push:focus, .push:active {
-  -webkit-animation-name: push;
-  animation-name: push;
-  -webkit-animation-duration: 0.3s;
-  animation-duration: 0.3s;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
 }
 
 p.large{
@@ -206,9 +158,24 @@ hr.separator{
     width: 100%;
     border: none;
     height: 3px;
-
 }
-button, input[type=button], input[type=reset], input[type=submit],.btn-default{
+.linkButton{
+    display: block;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+    .content-bottom a.linkButton{
+        font-weight: normal;
+        font-family: 'latoregular';
+        color: #fff;
+        width: auto;
+        float: left;
+        margin-bottom: 32px;
+    }
+    .content-bottom a.linkButton:hover{
+        color: #00334b;
+    }
+button, input[type=button], input[type=reset], input[type=submit],.btn-default, .linkButton{
     color: #fff;
     border: none;
     background: #ff5300;
@@ -216,10 +183,15 @@ button, input[type=button], input[type=reset], input[type=submit],.btn-default{
     font-size: 1em;
     text-transform: uppercase;
 }
-    .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default,button:hover, input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover {
+    .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default,button:hover, input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover, .linkButton:hover {
         color: #00334b;
         background-color: #ffffff;
         border: none;
+    }
+    .linkButton:hover{
+        -webkit-box-shadow: inset 0 0 0 1px #d3d3d3;
+        -moz-box-shadow: inset 0 0 0 1px #d3d3d3;
+        box-shadow: inset 0 0 0 1px #d3d3d3;
     }
 .lightBlue{
     margin: 0 auto;
@@ -485,6 +457,10 @@ a.textSocial{
     color: #fff;
     background-color: #ff5300;
     border-color: #ff5300;
+}
+
+.textGrey{
+    color: #d3d3d3;
 }
 
 /*HEADER*/

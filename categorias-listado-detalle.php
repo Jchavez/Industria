@@ -12,13 +12,25 @@
           <strong class="money">$ 999,00.-</strong>
           <hr>
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-5">
               <p>
-                <strong>Ubicaci&oacute;</strong><br/>
+                <strong>Ubicaci&oacute;n</strong><br/>
                 Arrecifes, Buenos Aires
               </p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-7">
+              <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <a href="#" target="_blank" title="" class="icons2 iconFavorites2">Fav</a>
+                    <em class="textGrey">Agregar a <br/>favoritos</em>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <a href="#" target="_blank" title="" class="icons2 iconFacebook2">Fb</a>
+                    <a href="#" target="_blank" title="" class="icons2 iconTwitter2">Twitter</a>
+                    <!--<em class="textGrey">Compartir</em>-->
+                </div>
+              </div>
+
             </div>
           </div>
           <hr>
@@ -48,7 +60,7 @@
 
           <hr>
           <section>
-            <h2>Descripci&oacute;</h2>
+            <h2>Descripci&oacute;n</h2>
             <p>
             Acoplado para tiro de camión.
             Acoplado tolva de tres ejes para 34 m3 de capacidad para tiro de camión dividido al medio.
@@ -103,6 +115,42 @@
           </div>
           </form>
           <hr>
+          <section>
+            <strong class="currency">Vendedor</strong>
+            <p>Empresa XXX</p>
+            <div class="row">
+              <div class="col-xs-12 col-md-12">
+                  <a href="#" target="_blank" title="" class="icons2 iconFacebook2">Fb</a>
+                  <a href="#" class="textSocial">Facebook</a>
+              </div>
+            </div>
+            <div class="row"> 
+              <div class="col-xs-12 col-md-12">
+                  <a href="#" target="_blank" title="" class="icons2 iconTwitter2">Tel</a>
+                  <a href="#" class="textSocial">Twitter</a>
+              </div>
+            </div>            
+            <div class="row">
+              <div class="col-xs-12 col-md-12">
+                  <a href="#" target="_blank" title="" class="icons2 iconTelephone">Tel</a>
+                  <a href="#" class="textSocial">Telefono</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-md-12">
+                  <a href="#" target="_blank" title="" class="icons2 iconMessage">Email</a>
+                  <a href="#" class="textSocial">Email</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-md-12">
+                  <a href="#" target="_blank" title="" class="icons2 iconWeb">Web</a>
+                  <a href="#" class="textSocial">Web</a>
+              </div>
+            </div> 
+            <p></p> 
+            <a href="#" class="linkButton">perfil del vendedor</a>
+          </section>
           <section>
             <h2>Caracteristicas</h2>
             <p>
