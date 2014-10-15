@@ -17,6 +17,10 @@ $(document).ready(function() {
 		$(this).parent().find(".glyphicon-minus").removeClass("glyphicon-minus").addClass("glyphicon-plus");
 	});
 
+	$('.bxslider').bxSlider({
+		pagerCustom: '#bx-pager'
+	});
+
 	
 });
 

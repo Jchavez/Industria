@@ -21,12 +21,29 @@
             <div class="col-md-6">
             </div>
           </div>
+          <hr>
           <div class="row">
             <div class="col-md-12">
               <p><em>Este anuncio fue visto 1478 veces desde que se publicó.</em></p>
             </div>
           </div>
+          <hr>
 
+          <section class="gallery_with_thumbs">
+            <ul class="bxslider">
+              <li><img src="images/products/imageProduct.jpg" /></li>
+              <li><img src="images/products/imageProduct.jpg" /></li>
+              <li><img src="images/products/imageProduct.jpg" /></li>
+              <li><img src="images/products/imageProduct.jpg" /></li>
+            </ul>
+
+            <div id="bx-pager">
+              <a data-slide-index="0" href=""><img src="images/products/thumbs/thumbProduct1.jpg" /></a>
+              <a data-slide-index="1" href=""><img src="images/products/thumbs/thumbProduct2.jpg" /></a>
+              <a data-slide-index="2" href=""><img src="images/products/thumbs/thumbProduct3.jpg" /></a>
+              <a data-slide-index="3" href=""><img src="images/products/thumbs/thumbProduct4.jpg" /></a>
+            </div>
+          </section>
 
 
           <hr>

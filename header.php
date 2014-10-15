@@ -15,6 +15,8 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 	<link href="css/style.css" rel="stylesheet" type="text/css">
+  <!-- bxSlider CSS file -->
+  <link href="css/jquery.bxslider.css" rel="stylesheet" />
 </head>
 
 <body>

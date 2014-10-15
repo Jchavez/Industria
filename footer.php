@@ -39,6 +39,8 @@
 <script src="js/jquery-1.11.1.min.js"  type="text/javascript"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.js"></script> 
-<script src="js/compiled.js"></script> 
+<script src="js/compiled.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="js/jquery.bxslider.min.js"></script> 
 </body>
 </html>
