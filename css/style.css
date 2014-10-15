@@ -411,6 +411,14 @@ a.iconUser:hover{ background-position: -481px 0;}
         #btnMenu:hover .bar, #btnMenu:active .bar, #btnMenu:focus .bar, #btnMenu.active .bar{
             background-color: #fff;
         }
+    #menu{
+        display: block;
+        width: auto;
+        height: auto;
+    }
+    #menu:hover ul{
+        display: block;
+    }
     #menu ul{
         display: none;
         position: absolute;

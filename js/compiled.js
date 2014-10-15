@@ -3,10 +3,10 @@ $(document).ready(function() {
   clean();
 	$('#menu').hover(function () {
 		$('#btnMenu').addClass("active");
-		$('#menu ul').slideDown();
+		//$('#menu ul').slideDown('slow');
 	}, function () {
 		$('#btnMenu').removeClass("active");
-		$('#menu ul').slideUp();
+		//$('#menu ul').slideUp('slow');
 	});
 
 	$('.collapse').on('shown.bs.collapse', function(){
