@@ -28,7 +28,9 @@
             <div class="col-md-9">
               <div class="row">
                 <div class="col-md-7">
-                  <img src="images/imageNews.jpg" class="img-responsive currentNew" alt="industria web">
+                  <a href="#">
+                    <img src="images/imageNews.jpg" class="img-responsive currentNew shrink " alt="industria web">
+                  </a>
                 </div>
                 <div class="col-md-5">
                   <?php require("last_news.php");?>

@@ -31,10 +31,10 @@
 
           <section class="gallery_with_thumbs">
             <ul class="bxslider">
-              <li><img src="images/products/imageProduct.jpg" /></li>
-              <li><img src="images/products/imageProduct.jpg" /></li>
-              <li><img src="images/products/imageProduct.jpg" /></li>
-              <li><img src="images/products/imageProduct.jpg" /></li>
+              <li><img src="images/products/imageProduct.jpg" class="grow" /></li>
+              <li><img src="images/products/imageProduct.jpg" class="grow" /></li>
+              <li><img src="images/products/imageProduct.jpg" class="grow" /></li>
+              <li><img src="images/products/imageProduct.jpg" class="grow" /></li>
             </ul>
 
             <div id="bx-pager">

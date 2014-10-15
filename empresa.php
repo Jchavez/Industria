@@ -11,7 +11,7 @@
           <h1>Titulo</h1>
           <p><strong>Empresa</strong><br/>
           Nombre de la empresa</p>
-          <img src="images/imgEmpresa.jpg" alt="Nombre Empresa">
+          <img src="images/imgEmpresa.jpg" alt="Nombre Empresa" class="shrink">
           <section>
             <h2>Datos de la empresa</h2>
             <hr>

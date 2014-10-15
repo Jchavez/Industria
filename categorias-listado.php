@@ -68,7 +68,7 @@
           <section class="list-cat">
           <div class="row">
               <div class="col-xs-12 col-md-2">
-                <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
+                <a href="#"><img src="images/imageBlank2.jpg" alt="" class="image-responsive shrink"></a>
                </div>
               <div class="col-xs-12 col-md-7">
                 <a a href="categorias-listado-detalle.php">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
@@ -83,7 +83,7 @@
           <section class="list-cat">
           <div class="row">
               <div class="col-xs-12 col-md-2">
-                <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
+                <a href="#"><img src="images/imageBlank2.jpg" alt="" class="image-responsive shrink"></a>
                </div>
               <div class="col-xs-12 col-md-7">
                 <a a href="categorias-listado-detalle.php">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
@@ -98,7 +98,7 @@
           <section class="list-cat">
           <div class="row">
               <div class="col-xs-12 col-md-2">
-                <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
+                <a href="#"><img src="images/imageBlank2.jpg" alt="" class="image-responsive shrink"></a>
                </div>
               <div class="col-xs-12 col-md-7">
                 <a a href="categorias-listado-detalle.php">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
@@ -113,7 +113,7 @@
           <section class="list-cat">
           <div class="row">
               <div class="col-xs-12 col-md-2">
-                <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
+                <a href="#"><img src="images/imageBlank2.jpg" alt="" class="image-responsive shrink"></a>
                </div>
               <div class="col-xs-12 col-md-7">
                 <a a href="categorias-listado-detalle.php">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
@@ -128,7 +128,7 @@
           <section class="list-cat">
           <div class="row">
               <div class="col-xs-12 col-md-2">
-                <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
+                <a href="#"><img src="images/imageBlank2.jpg" alt="" class="image-responsive shrink"></a>
                </div>
               <div class="col-xs-12 col-md-7">
                 <a a href="categorias-listado-detalle.php">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
@@ -143,7 +143,7 @@
           <section class="list-cat">
           <div class="row">
               <div class="col-xs-12 col-md-2">
-                <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
+                <a href="#"><img src="images/imageBlank2.jpg" alt="" class="image-responsive shrink"></a>
                </div>
               <div class="col-xs-12 col-md-7">
                 <a a href="categorias-listado-detalle.php">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
@@ -158,7 +158,7 @@
           <section class="list-cat">
           <div class="row">
               <div class="col-xs-12 col-md-2">
-                <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
+                <a href="#"><img src="images/imageBlank2.jpg" alt="" class="image-responsive shrink"></a>
                </div>
               <div class="col-xs-12 col-md-7">
                 <a a href="categorias-listado-detalle.php">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
@@ -173,7 +173,7 @@
           <section class="list-cat">
           <div class="row">
               <div class="col-xs-12 col-md-2">
-                <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
+                <a href="#"><img src="images/imageBlank2.jpg" alt="" class="image-responsive shrink"></a>
                </div>
               <div class="col-xs-12 col-md-7">
                 <a a href="categorias-listado-detalle.php">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
@@ -188,7 +188,7 @@
           <section class="list-cat">
           <div class="row">
               <div class="col-xs-12 col-md-2">
-                <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
+                <a href="#"><img src="images/imageBlank2.jpg" alt="" class="image-responsive shrink"></a>
                </div>
               <div class="col-xs-12 col-md-7">
                 <a a href="categorias-listado-detalle.php">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
@@ -203,7 +203,7 @@
           <section class="list-cat">
           <div class="row">
               <div class="col-xs-12 col-md-2">
-                <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
+                <a href="#"><img src="images/imageBlank2.jpg" alt="" class="image-responsive shrink"></a>
                </div>
               <div class="col-xs-12 col-md-7">
                 <a a href="categorias-listado-detalle.php">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
@@ -233,11 +233,11 @@
           <?php 
             require("last_news.php");
           ?>
-          <p><img src="images/imageBlank.jpg" alt="" class="hide_this"></p>
+          <p><img src="images/imageBlank.jpg" alt="" class="hide_this shrink"></p>
           
-          <p><img src="images/imageBlank.jpg" alt="" class="hide_this"></p>
+          <p><img src="images/imageBlank.jpg" alt="" class="hide_this shrink"></p>
           
-          <p><img src="images/imageBlank.jpg" alt="" class="hide_this"></p>
+          <p><img src="images/imageBlank.jpg" alt="" class="hide_this shrink"></p>
           
         </div>
       </div>
