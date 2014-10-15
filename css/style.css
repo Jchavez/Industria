@@ -181,6 +181,7 @@ textarea, select, input[type="search"],input[type="email"], input[type="number"]
     padding-left: 15px;
     padding-right: 15px;
     width: 100%;
+    border: 1px solid #d3d3d3;
 }
 select{
     -webkit-appearance:none;
@@ -195,6 +196,27 @@ select{
 input[type="search"]{
     background: url("../images/iconSearch2.jpg") no-repeat right center #ebebeb;
     padding-right: 45px;
+    border: none;
+}
+.form-group{
+    margin-bottom: 4px;
+}
+
+.formStyle{
+    background:url("../images/bgFormStyle.jpg") no-repeat center top #00334b;
+    width: 100%;
+    display: block;
+    padding: 16px;
+}
+.titleForm{
+    font-size: 1.250em;
+    color: #fff;
+    background:   #00b2ed;
+    text-transform: uppercase;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 18px 0;
 }
 
 #headerSearch{
