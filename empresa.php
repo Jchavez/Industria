@@ -11,31 +11,36 @@
           <h1>Titulo</h1>
           <p><strong>Empresa</strong><br/>
           Nombre de la empresa</p>
-          <img src="images/imgEmpresa.jpg" alt="Nombre Empresa" class="shrink">
+          <img src="images/imgEmpresa.jpg" alt="Nombre Empresa" class="shrink img-responsive">
           <section>
             <h2>Datos de la empresa</h2>
             <hr>
             <div class="row">
-              <div class="col-md-6">
-                <a href="#">Facebook</a>
+              <div class="col-xs-12 col-md-6">
+                  <a href="#" target="_blank" title="" class="icons2 iconFacebook2">Fb</a>
+                  <a href="#" class="textSocial">Facebook</a>
               </div>
-              <div class="col-md-6">
-                <a href="#">Telefono</a>
+              <div class="col-xs-12 col-md-6">
+                  <a href="#" target="_blank" title="" class="icons2 iconTelephone">Tel</a>
+                  <a href="#" class="textSocial">Telefono</a>
+              </div>
+            </div>
+            <div class="row"> 
+              <div class="col-xs-12 col-md-6">
+                  <a href="#" target="_blank" title="" class="icons2 iconTwitter2">Tel</a>
+                  <a href="#" class="textSocial">Twitter</a>
+              </div>
+              <div class="col-xs-12 col-md-6">
+                  <a href="#" target="_blank" title="" class="icons2 iconMessage">Email</a>
+                  <a href="#" class="textSocial">Email</a>
               </div>
             </div>
             <div class="row">
-              <div class="col-md-6">
-                <a href="#">Twitter</a>
+              <div class="col-xs-12 col-md-6">
+                  <a href="#" target="_blank" title="" class="icons2 iconWeb">Web</a>
+                  <a href="#" class="textSocial">Web</a>
               </div>
-              <div class="col-md-6">
-                <a href="#">Email</a>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-                <a href="#">Web</a>
-              </div>
-              <div class="col-md-6">
+              <div class="col-xs-12 col-md-6">
               </div>
             </div>
           </section>
@@ -51,7 +56,6 @@
           <h2>Acerca de la empresa</h2>
           <p class="large">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
           
-
           <span class="titleForm">realizar consulta a la empresa</span>
           <form role="form" class="formStyle">
             <div class="row">

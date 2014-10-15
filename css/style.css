@@ -329,7 +329,6 @@ a.icons{
     display: block;
     float: left;
 }
-
 a.iconFacebook{ background-position: 0 0;} 
 a.iconFacebook:hover{ background-position: -37px 0;} 
 a.iconFavorites{ background-position: -74px 0;} 
@@ -344,6 +343,36 @@ a.iconTwitter{ background-position: -370px 0;}
 a.iconTwitter:hover{ background-position: -407px 0;} 
 a.iconUser{ background-position: -444px 0;} 
 a.iconUser:hover{ background-position: -481px 0;} 
+
+a.icons2{
+    width: 32px; 
+    height: 32px;
+    display:block;
+    text-indent:-10000px;
+    color: rgba(0,0,0,0);
+    background: url("../images/iconSprite2.png");
+    margin: 0 10px 10px 0;
+    display: block;
+    float: left;
+}
+a.iconFacebook2{ background-position: 0 0;} 
+a.iconFacebook2:hover{ background-position: -37px 0;} 
+a.iconFavorites2{ background-position: -74px 0;} 
+a.iconFavorites2:hover{ background-position: -111px 0;} 
+a.iconMessage{ background-position: -148px 0;} 
+a.iconMessage:hover{ background-position: -185px 0;} 
+a.iconTelephone{ background-position: -222px 0;} 
+a.iconTelephone:hover{ background-position: -259px 0;} 
+a.iconTwitter2{ background-position: -296px 0;} 
+a.iconTwitter2:hover{ background-position: -333px 0;} 
+a.iconWeb{ background-position: -370px 0;} 
+a.iconWeb:hover{ background-position: -407px 0;} 
+
+a.textSocial{
+    margin-top: 6px;
+    float: left;
+    text-decoration: underline;
+}
 
 .currency_val{
     text-align: center;
