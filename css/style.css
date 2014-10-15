@@ -182,6 +182,7 @@ textarea, select, input[type="search"],input[type="email"], input[type="number"]
     padding-right: 15px;
     width: 100%;
     border: 1px solid #d3d3d3;
+    color: #898989;
 }
 select{
     -webkit-appearance:none;

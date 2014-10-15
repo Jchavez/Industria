@@ -71,7 +71,7 @@
                 <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
                </div>
               <div class="col-xs-12 col-md-7">
-                <a href="#">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
+                <a a href="categorias-listado-detalle.php">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
                 <p>Camilo Aldao (Córdoba)</p>
               </div>
               <div class="col-xs-12 col-md-3">
@@ -86,7 +86,7 @@
                 <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
                </div>
               <div class="col-xs-12 col-md-7">
-                <a href="#">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
+                <a a href="categorias-listado-detalle.php">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
                 <p>Camilo Aldao (Córdoba)</p>
               </div>
               <div class="col-xs-12 col-md-3">
@@ -101,7 +101,7 @@
                 <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
                </div>
               <div class="col-xs-12 col-md-7">
-                <a href="#">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
+                <a a href="categorias-listado-detalle.php">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
                 <p>Camilo Aldao (Córdoba)</p>
               </div>
               <div class="col-xs-12 col-md-3">
@@ -116,7 +116,7 @@
                 <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
                </div>
               <div class="col-xs-12 col-md-7">
-                <a href="#">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
+                <a a href="categorias-listado-detalle.php">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
                 <p>Camilo Aldao (Córdoba)</p>
               </div>
               <div class="col-xs-12 col-md-3">
@@ -131,7 +131,7 @@
                 <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
                </div>
               <div class="col-xs-12 col-md-7">
-                <a href="#">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
+                <a a href="categorias-listado-detalle.php">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
                 <p>Camilo Aldao (Córdoba)</p>
               </div>
               <div class="col-xs-12 col-md-3">
@@ -146,7 +146,7 @@
                 <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
                </div>
               <div class="col-xs-12 col-md-7">
-                <a href="#">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
+                <a a href="categorias-listado-detalle.php">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
                 <p>Camilo Aldao (Córdoba)</p>
               </div>
               <div class="col-xs-12 col-md-3">
@@ -161,7 +161,7 @@
                 <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
                </div>
               <div class="col-xs-12 col-md-7">
-                <a href="#">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
+                <a a href="categorias-listado-detalle.php">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
                 <p>Camilo Aldao (Córdoba)</p>
               </div>
               <div class="col-xs-12 col-md-3">
@@ -176,7 +176,7 @@
                 <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
                </div>
               <div class="col-xs-12 col-md-7">
-                <a href="#">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
+                <a a href="categorias-listado-detalle.php">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
                 <p>Camilo Aldao (Córdoba)</p>
               </div>
               <div class="col-xs-12 col-md-3">
@@ -191,7 +191,7 @@
                 <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
                </div>
               <div class="col-xs-12 col-md-7">
-                <a href="#">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
+                <a a href="categorias-listado-detalle.php">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
                 <p>Camilo Aldao (Córdoba)</p>
               </div>
               <div class="col-xs-12 col-md-3">
@@ -206,7 +206,7 @@
                 <img src="images/imageBlank2.jpg" alt="" class="image-responsive">
                </div>
               <div class="col-xs-12 col-md-7">
-                <a href="#">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
+                <a a href="categorias-listado-detalle.php">Jaula Mixta Rp3300 - Financiacion Mercado Pago O Propia</a>
                 <p>Camilo Aldao (Córdoba)</p>
               </div>
               <div class="col-xs-12 col-md-3">
