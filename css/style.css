@@ -136,6 +136,9 @@ h3{
     -webkit-transform: scale(0.9);
     transform: scale(0.9);
 }
+hr.grey_strong{
+    border-top: 1px solid #d3d3d3;
+}
 
 p.large{
     font-family: 'latolight';
@@ -151,6 +154,24 @@ p.large{
     font-family: 'latoregular';
     font-size: 2em;
     display: block;   
+}
+.orange{
+    color: #ff5300;
+    width: 100%;
+    font-family: 'latoregular';
+    font-size: 1.5em;
+    font-weight: normal;
+    display: block;
+    margin-top: 32px;
+}
+.link_grey{
+    color: #252525;
+    text-decoration: underline;
+    width: 100%;
+    display: block;
+}
+.link_grey:hover{
+    color: #252525;
 }
 hr.separator{
     background: url("../images/borderSubTitles.jpg") no-repeat center bottom;
@@ -254,6 +275,7 @@ input[type="search"]{
     text-align: center;
     padding: 18px 0;
 }
+
 
 #headerSearch{
     color: #00b2ed;   

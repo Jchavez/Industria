@@ -40,9 +40,9 @@
                   <li class=""><a href="categorias.php">Animales</a></li>
                   <li class=""><a href="categorias.php">AgroEmpleos</a></li>
                   <li class=""><a href="planes.php">Planes</a></li>
-                  <li class=""><a href="#">FAQ</a></li>
-                  <li class=""><a href="#">Quienes somos</a></li>
-                  <li class=""><a href="#">Contacto</a></li>
+                  <li class=""><a href="ayuda.php">FAQ</a></li>
+                  <li class=""><a href="quienes-somos.php">Quienes somos</a></li>
+                  <li class=""><a href="contacto.php">Contacto</a></li>
                 </ul>
             </nav>
           </div>

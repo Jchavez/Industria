@@ -20,9 +20,9 @@
                 <li><a href="categorias.php">Servicios</a></li>
                 <li><a href="categorias.php">Animales</a></li>
                 <li><a href="categorias.php">AgroEmpleos</a></li>
-                <li><a href="#" class="active">FAQ</a></li>
-                <li><a href="#" class="active">Quienes somos</a></li>
-                <li><a href="#" class="active">Contacto  </a></li>
+                <li><a href="ayuda.php" class="active">FAQ</a></li>
+                <li><a href="quienes-somos.php" class="active">Quienes somos</a></li>
+                <li><a href="contacto.php" class="active">Contacto  </a></li>
               </ul>
             </div>
             <div class="col-md-9">

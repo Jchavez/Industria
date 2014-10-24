@@ -178,11 +178,11 @@
           <?php 
             require("last_news.php");
           ?>
-          <p><img src="images/imageBlank.jpg" alt="" class="hide_this"></p>
+          <p><img src="images/imageBlank.jpg" alt="" class="hide_this shrink"></p>
           
-          <p><img src="images/imageBlank.jpg" alt="" class="hide_this"></p>
+          <p><img src="images/imageBlank.jpg" alt="" class="hide_this shrink"></p>
           
-          <p><img src="images/imageBlank.jpg" alt="" class="hide_this"></p>
+          <p><img src="images/imageBlank.jpg" alt="" class="hide_this shrink"></p>
           
         </div>
       </div>
