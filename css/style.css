@@ -140,6 +140,10 @@ hr.grey_strong{
     border-top: 1px solid #d3d3d3;
 }
 
+.capitalize{
+    text-transform: capitalize;
+}
+
 p.large{
     font-family: 'latolight';
     font-size: 1.500em;
@@ -196,6 +200,13 @@ hr.separator{
     .content-bottom a.linkButton:hover{
         color: #00334b;
     }
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-top: 5px;
+    font-weight:normal; 
+}
 button, input[type=button], input[type=reset], input[type=submit],.btn-default, .linkButton{
     color: #fff;
     border: none;
@@ -239,6 +250,7 @@ textarea, select, input[type="search"],input[type="email"], input[type="number"]
     width: 100%;
     border: 1px solid #d3d3d3;
     color: #898989;
+    margin-bottom: 9px;
 }
 select{
     -webkit-appearance:none;
@@ -256,7 +268,7 @@ input[type="search"]{
     border: none;
 }
 .form-group{
-    margin-bottom: 4px;
+    margin-bottom: 0px;
 }
 
 .formStyle{
@@ -722,9 +734,7 @@ a.textSocial{
 .list-cat p{
     margin: 0;
 }
-.listSearch{
-    margin-bottom: 8px;
-}
+
 
 .orderList span{
     float: left;
