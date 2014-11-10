@@ -22,9 +22,9 @@
     Lorem ipsum dolor sit amet, consectetur adipisicing elit
   </p>
 </div>
-<div class="news">
+<div class="news" class="border_none">
   <a href="categorias-listado-detalle.php"><img src="images/imageNews4.jpg" alt="industria web" class="shrink"></a>
-  <a href="categorias-listado-detalle.php">Title</a>
+  <a href="categorias-listado-detalle.php">Title</a> 
   <p>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit
   </p>

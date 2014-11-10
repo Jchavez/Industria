@@ -141,6 +141,10 @@ h3{
 ::-moz-placeholder { color: #00b2ed; } /* Firefox 19+ */
 :-ms-input-placeholder { color: #00b2ed; } /* IE 10+ */
 
+.border_none{
+    border: none;
+}
+
 hr.grey_strong{
     border-top: 1px solid #d3d3d3;
 }
