@@ -13,8 +13,8 @@
                 <li class="active"><a href="planes.php">Planes</a></li>
                 <li><a href="perfil.php">Perfil</a></li>
                 <li><a href="mensajes.php" class="active">Mensajes</a></li>
-                <li><a href="misAnuncios.php" class="active">Mis Anuncios</a></li>
-                <li><a href="publicarAnuncio.php" class="active">Publicar Anuncio</a></li>
+                <li><a href="mis_anuncios.php" class="active">Mis Anuncios</a></li>
+                <li><a href="publicar_anuncio.php" class="active">Publicar Anuncio</a></li>
                 <li><a href="estadisticas.php" class="active">Estadisticas</a></li>
               </ul>
             </div>
@@ -296,10 +296,41 @@
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-12">
-                      <div class="imagefile">
-                        <input type="file" name="fileImage" id="files">
+                    <div class="col-md-5">
+                      <label>Media</label>
+                    </div>
+                    <div class="col-md-7">
+                      <div class="row">
+                        <div class="col-xs-6 col-md-3">
+                          <div class="media_file">
+                            <div class="imagefile" style="margin:0;">
+                              <input type="file" name="fileImage">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                          <div class="media_file">
+                            <div class="videofile">
+                              <input type="file" name="fileVideo">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                          <p>Seleccione el elemento que desea incorporar para representar su empresa en nuestro portal.</p>
+                        </div>
+                        <div class="col-md-6">
+                        </div>
                       </div>
+                      
+                      
+                      
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-5">
+                    </div>
+                    <div class="col-md-7">
+                      <button type="submit" class="btn btn-default">ACTUALIZAR MI PERFIL</button>              
                     </div>
                   </div>
                 </section>

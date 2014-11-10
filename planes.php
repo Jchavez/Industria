@@ -13,8 +13,8 @@
                 <li class="active"><a href="planes.php">Planes</a></li>
                 <li><a href="perfil.php">Perfil</a></li>
                 <li><a href="mensajes.php" class="active">Mensajes</a></li>
-                <li><a href="misAnuncios.php" class="active">Mis Anuncios</a></li>
-                <li><a href="publicarAnuncio.php" class="active">Publicar Anuncio</a></li>
+                <li><a href="mis_anuncios.php" class="active">Mis Anuncios</a></li>
+                <li><a href="publicar_anuncio.php" class="active">Publicar Anuncio</a></li>
                 <li><a href="estadisticas.php" class="active">Estadisticas</a></li>
               </ul>
             </div>

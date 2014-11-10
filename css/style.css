@@ -136,6 +136,11 @@ h3{
     -webkit-transform: scale(0.9);
     transform: scale(0.9);
 }
+::-webkit-input-placeholder { color: #00b2ed; } /* WebKit */
+:-moz-placeholder { color: #00b2ed; } /* Firefox 18- */
+::-moz-placeholder { color: #00b2ed; } /* Firefox 19+ */
+:-ms-input-placeholder { color: #00b2ed; } /* IE 10+ */
+
 hr.grey_strong{
     border-top: 1px solid #d3d3d3;
 }
@@ -270,31 +275,37 @@ input[type="search"]{
 input[type="file"]{
     cursor: pointer;
 }
-.imagefile{
+
+.media_file{
+    float: left;
+    width: 82px;
+    height: 126px;
+    text-align: center;
+   /*margin: 0px 8px 8px 8px; */
+}
+
+.imagefile,.videofile{
     width: 82px;
     height: 82px;
-    background: #ebebeb;
+    background: url("../images/iconImage.jpg") no-repeat center center #ebebeb;
     border-radius: 4px;
     cursor: pointer;
     float: left;
-/*   
-    background: #ebebeb;
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-*/    
 }
-.imagefile input[type="file"]{
-   width:82px;
-   height:82px;
-   position:relative;
-   left:0;
-   top:0;
-   cursor:pointer;
-   /*opacity: 0;*/
-   margin: 0;
-   float: left;   
+.videofile{
+    background: url("../images/iconVideo.jpg") no-repeat center center #ebebeb;
 }
+    .imagefile input[type="file"],.videofile input[type="file"]{
+       width:82px;
+       height:82px;
+       position:relative;
+       left:0;
+       top:0;
+       cursor:pointer;
+       opacity: 0;
+       margin: 0;
+       float: left;   
+    }
 
 .form-group{
     margin-bottom: 0px;
