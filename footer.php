@@ -5,14 +5,14 @@
             <ul>
               <li><a href="empresa.php">Acerca de Industria en la web</a></li>
               <li><a href="#">Condiciones</a></li>
-              <li><a href="#">Privacidad</a></li>
+              <li style="border:none;"><a href="#">Privacidad</a></li>
             </ul>
           </div>
           <div class="col-md-3">
             <ul>
               <li><a href="#">Seguridad</a></li>
               <li><a href="#">Ayuda</a></li>
-              <li><a href="mailto:info@industriaenlaweb.com">info@industriaenlaweb.com</a></li>
+              <li style="border:none;"><a href="mailto:info@industriaenlaweb.com">info@industriaenlaweb.com</a></li>
             </ul>
           </div>
           <div class="col-md-3">

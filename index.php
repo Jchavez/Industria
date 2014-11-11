@@ -22,15 +22,24 @@
                 <li><a href="categorias.php">AgroEmpleos</a></li>
                 <li><a href="ayuda.php" class="active">FAQ</a></li>
                 <li><a href="quienes-somos.php" class="active">Quienes somos</a></li>
-                <li><a href="contacto.php" class="active">Contacto  </a></li>
+                <li style="border:none;"><a href="contacto.php" class="active">Contacto  </a></li>
               </ul>
             </div>
             <div class="col-md-9">
               <div class="row">
                 <div class="col-md-7">
+
+                  <ul class="bxsliderHome">
+                    <li><img src="images/imageNews.jpg" class="grow" /></li>
+                    <li><img src="images/imageNews.jpg" class="grow" /></li>
+                    <li><img src="images/imageNews.jpg" class="grow" /></li>                  
+                  </ul>
+
+                  <!--
                   <a href="#">
                     <img src="images/imageNews.jpg" class="img-responsive currentNew shrink " alt="industria web">
                   </a>
+                  -->
                 </div>
                 <div class="col-md-5">
                   <?php require("last_news.php");?>

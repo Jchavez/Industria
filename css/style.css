@@ -86,7 +86,6 @@ a{
     }
 h1,h2,h3,h4,h5{
     color: #094969;
-    
 }
 h1{   
     font-size: 2em;
@@ -136,14 +135,10 @@ h3{
     -webkit-transform: scale(0.9);
     transform: scale(0.9);
 }
-::-webkit-input-placeholder { color: #00b2ed; } /* WebKit */
-:-moz-placeholder { color: #00b2ed; } /* Firefox 18- */
-::-moz-placeholder { color: #00b2ed; } /* Firefox 19+ */
-:-ms-input-placeholder { color: #00b2ed; } /* IE 10+ */
-
-.border_none{
-    border: none;
-}
+#headerSearch::-webkit-input-placeholder { color: #00b2ed; } /* WebKit */
+#headerSearch:-moz-placeholder { color: #00b2ed; }           /* Firefox 18- */
+#headerSearch::-moz-placeholder { color: #00b2ed; }          /* Firefox 19+ */
+#headerSearch:-ms-input-placeholder { color: #00b2ed; }      /* IE 10+ */
 
 hr.grey_strong{
     border-top: 1px solid #d3d3d3;
@@ -225,8 +220,8 @@ button, input[type=button], input[type=reset], input[type=submit],.btn-default, 
     text-transform: uppercase;
 }
     .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default,button:hover, input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover, .linkButton:hover {
-        color: #00334b;
-        background-color: #ffffff;
+        color: #fff;
+        background-color: #00b2ed;
         border: none;
     }
     .linkButton:hover{
@@ -361,13 +356,13 @@ input[type="file"]{
 .breadcrumb>.active {
     color: #094969;
 }
-#navIcon{
+/*#navIcon{
     display: block;
     width: 210px;
     height: 32px;
     margin-left: auto;
     margin-right: auto;
-}
+}*/
 a.icons{
     width: 32px; 
     height: 32px;
@@ -381,18 +376,31 @@ a.icons{
 }
 a.iconFacebook{ background-position: 0 0;} 
 a.iconFacebook:hover{ background-position: -37px 0;} 
+a.iconFacebook_hover{ background-position: -37px 0;} 
+
 a.iconFavorites{ background-position: -74px 0;} 
 a.iconFavorites:hover{ background-position: -111px 0;} 
+a.iconFavorites_hover{ background-position: -111px 0;}
+
 a.iconGmail{ background-position: -148px 0;} 
 a.iconGmail:hover{ background-position: -185px 0;} 
+a.iconGmail_hover{ background-position: -185px 0;} 
+
 a.iconHelp{ background-position: -222px 0;} 
 a.iconHelp:hover{ background-position: -259px 0;} 
+a.iconHelp_hover{ background-position: -259px 0;} 
+
 a.iconInformation{ background-position: -296px 0;} 
 a.iconInformation:hover{ background-position: -333px 0;} 
+a.iconInformation_hover{ background-position: -333px 0;} 
+
 a.iconTwitter{ background-position: -370px 0;} 
 a.iconTwitter:hover{ background-position: -407px 0;} 
+a.iconTwitter_hover{ background-position: -407px 0;} 
+
 a.iconUser{ background-position: -444px 0;} 
 a.iconUser:hover{ background-position: -481px 0;} 
+a.iconUser_hover{ background-position: -481px 0;} 
 
 a.icons2{
     width: 32px; 
@@ -606,8 +614,11 @@ a.textSocial{
             background:#252525;
         }
     form#search{
-    margin-top: 32px;
-    float: left;
+        margin-top: 32px;
+        float: left;
+    }
+    form#search button{
+        float: right;
     }
         .search{
             display: none;
@@ -615,6 +626,50 @@ a.textSocial{
         .navbar-form{
             padding: 0;
         }
+
+
+    .menu-icon {
+        display: block;
+        width: auto;
+        height: 96px;
+        float: left;
+        padding-left: 10px;
+        padding-right:10px;
+        position: relative;
+    }
+    .menu-icon:hover{
+        background: #ff5300;
+    }
+    .menu-icon:hover ul{
+        display: block;
+    }
+    .menu-icon ul{
+        display: none;
+        position: absolute;
+        background: #ff5300;
+        z-index: 999;
+        right: 0px;
+        top: 96px;
+    }
+    .menu-icon ul li{
+    }
+    .menu-icon a{
+        color: #fff;
+    }
+        .menu-icon a.icons{
+            margin: 0;
+        }
+    .menu-icon ul li a{
+        width: 100%;
+    }
+    .menu-icon .nav li a:hover, .menu-icon .nav li a:focus{
+        background: #252525;
+    }
+
+    .menu-icon img{
+        float: left;
+        margin: 0 7px 0 0;
+    }
 /*end - HEADER*/
 
 
@@ -704,7 +759,7 @@ a.textSocial{
             display: block;
         }
         .content-bottom a:hover{
-            color: #ff5300;
+            color: #00b2ed;
         }
         .content-bottom strong, strong.money{
             color: #00b2ed;
@@ -849,9 +904,6 @@ a.iconOrderList2{
 } 
 
 
-
-
-
 /*********Medium screens**********/
 /* min-width 641px, medium screens */
 @media only screen and (min-width: 40.063em) { 
@@ -870,7 +922,10 @@ a.iconOrderList2{
         width: 170px;
     }
     #navIcon{
-        margin-top: 32px;
+        /*margin-top: 32px;*/
+    }
+    .menu-icon {
+        padding-top: 32px;
     }
     .search{
         display: block;
@@ -878,7 +933,7 @@ a.iconOrderList2{
 
 }
 @media (max-width: 991px) {
-     .wrapperIcons{
+    .wrapperIcons{
         border-top: 1px solid #335c6f;
         padding: 16px 0;
     }
@@ -913,9 +968,6 @@ a.iconOrderList2{
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { } 
 
 
-
-
-
 /*********Large screens**********/
 /* min-width 1025px, large screens */
 @media only screen and (min-width: 64.063em) { 
@@ -925,17 +977,11 @@ a.iconOrderList2{
 @media only screen and (min-width: 64.063em) and (max-width: 90em) { } 
 
 
-
-
-
 /*********XLarge screens**********/
 /* min-width 1441px, xlarge screens */
 @media only screen and (min-width: 90.063em) { } 
 /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
 @media only screen and (min-width: 90.063em) and (max-width: 120em) { } 
-
-
-
 
 
 /*********XXLarge screens**********/

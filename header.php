@@ -43,7 +43,7 @@
                   <li class=""><a href="ayuda.php">FAQ</a></li>
                   <li class=""><a href="quienes-somos.php">Quienes somos</a></li>
                   <li class=""><a href="contacto.php">Contacto</a></li>
-                </ul>
+              </ul>
             </nav>
           </div>
           <div class="col-xs-12 col-md-6 search">
@@ -57,10 +57,42 @@
           <div class="col-xs-12 col-md-3">
             <div class="wrapperIcons">
               <div id="navIcon">
-                <a href="#" target="_blank" title="" class="icons iconInformation">Information</a>
-                <a href="#" target="_blank" title="" class="icons iconFavorites">Favorites</a>
-                <a href="#" target="_blank" title="" class="icons iconUser">User</a>
-                <a href="#" target="_blank" title="" class="icons iconHelp">Help</a>
+                <nav class="menu-icon">
+                  <a href="#" target="_blank" title="" class="icons iconInformation">Information</a>
+                  <ul class="nav">
+                    <li class=""><a href="http://facebook.com" target="_blank">Facebook</a></li>
+                    <li class=""><a href="http://facebook.com" target="_blank">Twitter</a></li>
+                    <li class=""><a href="http://facebook.com" target="_blank">Google+</a></li>
+                  </ul>
+                </nav>
+                <nav class="menu-icon">
+                  <a href="#" target="_blank" title="" class="icons iconFavorites">Favorites</a>
+                  <ul class="nav">
+                    <li style="width:310px;">
+                      <a href="#">Mis anuncios favoritos</a>
+                    </li>
+                    <li class="">
+                      <a href="categorias-listado-detalle.php">
+                        <img src="images/thumb.jpg">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+                <nav class="menu-icon">
+                  <a href="#" title="" class="icons iconUser">User</a>
+                  <ul class="nav">
+                    <li class="" style="width:170px;"><a href="#">Mi Industria</a></li>
+                    <li class=""><a href="perfil.php">Configurar mi Perfil</a></li>
+                    <li class=""><a href="#">Salir+</a></li>
+                  </ul>
+                </nav>
+                <nav class="menu-icon">
+                  <a href="#"  title="" class="icons iconHelp">Help</a>
+                  <ul class="nav">
+                    <li class=""><a href="ayuda.php">Ayuda</a></li>
+                  </ul>
+                </nav>
               </div>
             </div>
           </div>

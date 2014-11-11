@@ -3,10 +3,20 @@ $(document).ready(function() {
   clean();
 	$('#menu').hover(function () {
 		$('#btnMenu').addClass("active");
-		//$('#menu ul').slideDown('slow');
 	}, function () {
 		$('#btnMenu').removeClass("active");
-		//$('#menu ul').slideUp('slow');
+	});
+
+	$('.menu-icon').hover(function () {
+		var classe=$(this).children('a.icons').text();
+		$(this).children('a.icons').addClass("icon"+classe+"_hover");
+		/*var classe= $('a.icons').text();
+		$('a.icons').addClass("icon"+classe);*/
+	}, function () {
+		var classe=$(this).children('a.icons').text();
+		$(this).children('a.icons').removeClass("icon"+classe+"_hover");
+		/*var classe= $('a.icons').text();
+		$('a.icons').removeClass("icon"+classe);*/
 	});
 
 	$('.collapse').on('shown.bs.collapse', function(){
@@ -19,6 +29,10 @@ $(document).ready(function() {
 
 	$('.bxslider').bxSlider({
 		pagerCustom: '#bx-pager'
+	});
+
+	$('.bxsliderHome').bxSlider({
+		
 	});
 
 	
