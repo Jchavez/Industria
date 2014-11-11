@@ -30,9 +30,9 @@
                 <div class="col-md-7">
 
                   <ul class="bxsliderHome">
-                    <li><img src="images/imageNews.jpg" class="grow" /></li>
-                    <li><img src="images/imageNews.jpg" class="grow" /></li>
-                    <li><img src="images/imageNews.jpg" class="grow" /></li>                  
+                    <li><img src="images/imageNews.jpg" class="grow img-responsive" /></li>
+                    <li><img src="images/imageNews.jpg" class="grow img-responsive" /></li>
+                    <li><img src="images/imageNews.jpg" class="grow img-responsive" /></li>                  
                   </ul>
 
                   <!--
