@@ -32,7 +32,7 @@ $(document).ready(function() {
 	});
 
 	$('.bxsliderHome').bxSlider({
-		
+		pager:false		
 	});
 
 	
