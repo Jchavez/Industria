@@ -10,7 +10,7 @@
       <div class="container">
         <section class="content-top">
           <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 sidebar">
               <h1>CATEGORÍAS</h1>
               <ul class="nav nav-pills nav-stacked">
                 <li class="active"><a href="categorias.php">Maquinarias</a></li>

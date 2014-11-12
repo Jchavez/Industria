@@ -97,7 +97,7 @@
                 <nav class="menu-icon">
                   <a href="#" title="" class="icons iconUser">User</a>
                   <ul class="nav">
-                    <li class="" style="width:170px;"><a href="#">Mi Industria</a></li>
+                    <li class="" style=""><a href="#">Mi Industria</a></li>
                     <li class=""><a href="perfil.php">Configurar mi Perfil</a></li>
                     <li class=""><a href="#">Salir+</a></li>
                   </ul>

@@ -8,7 +8,7 @@
       <div class="container">
         <section class="content-top">
           <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 sidebar">
               <ul class="nav nav-pills nav-stacked">
                 <li class="active"><a href="publicar_anuncio.php">Paso 1 - Categor&iacute;a</a></li>
                 <li><a href="publicar_anuncio_2.php">Paso 2 - Anuncio</a></li>
