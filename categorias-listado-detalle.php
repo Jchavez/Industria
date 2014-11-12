@@ -25,8 +25,8 @@
                     <em class="textGrey">Agregar a <br/>favoritos</em>
                 </div>
                 <div class="col-xs-12 col-md-6">
-                    <a href="#" target="_blank" title="" class="icons2 iconFacebook2">Fb</a>
-                    <a href="#" target="_blank" title="" class="icons2 iconTwitter2">Twitter</a>
+                    <a href="https://www.facebook.com/" target="_blank" title="" class="icons2 iconFacebook2">Fb</a>
+                    <a href="https://twitter.com" target="_blank" title="" class="icons2 iconTwitter2">Twitter</a>
                     <!--<em class="textGrey">Compartir</em>-->
                 </div>
               </div>
@@ -120,14 +120,14 @@
             <p>Empresa XXX</p>
             <div class="row">
               <div class="col-xs-12 col-md-12">
-                  <a href="#" target="_blank" title="" class="icons2 iconFacebook2">Fb</a>
-                  <a href="#" class="textSocial">Facebook</a>
+                  <a href="https://www.facebook.com" target="_blank" title="" class="icons2 iconFacebook2">Fb</a>
+                  <a href="https://www.facebook.com" class="textSocial">Facebook</a>
               </div>
             </div>
             <div class="row"> 
               <div class="col-xs-12 col-md-12">
-                  <a href="#" target="_blank" title="" class="icons2 iconTwitter2">Tel</a>
-                  <a href="#" class="textSocial">Twitter</a>
+                  <a href="https://twitter.com/" target="_blank" title="" class="icons2 iconTwitter2">Tel</a>
+                  <a href="https://twitter.com/" class="textSocial">Twitter</a>
               </div>
             </div>            
             <div class="row">
@@ -138,14 +138,14 @@
             </div>
             <div class="row">
               <div class="col-xs-12 col-md-12">
-                  <a href="#" target="_blank" title="" class="icons2 iconMessage">Email</a>
-                  <a href="#" class="textSocial">Email</a>
+                  <a href="mailto:info@industria.com" target="_blank" title="" class="icons2 iconMessage">Email</a>
+                  <a href="mailto:info@industria.com" class="textSocial">Email</a>
               </div>
             </div>
             <div class="row">
               <div class="col-xs-12 col-md-12">
-                  <a href="#" target="_blank" title="" class="icons2 iconWeb">Web</a>
-                  <a href="#" class="textSocial">Web</a>
+                  <a href="http://industria.com" target="_blank" title="" class="icons2 iconWeb">Web</a>
+                  <a href="http://industria.com" class="textSocial">Web</a>
               </div>
             </div> 
             <p></p> 

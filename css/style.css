@@ -826,6 +826,29 @@ a.textSocial{
     margin: 0;
 }
 
+.list-cat-2{
+    padding: 16px 0;
+    border-top: 1px solid #d3d3d3;
+}
+.list-cat-2 img{
+    float: none;
+    margin-right: 8px;
+    width: 100%;
+}
+
+.list-cat-2 a{
+    color: #094969;
+    font-size: 1.250em;
+}
+
+.list-cat-2 a:hover{
+    text-decoration: underline;
+    color: #ff5300;
+}
+.list-cat-2 p{
+    margin: 0;
+}
+
 
 .orderList span{
     float: left;
@@ -896,6 +919,9 @@ a.iconOrderList2{
     
     .sidebar{
         margin-bottom: 16px;
+    }
+    .list-cat-2 img{
+        margin-top: 16px;
     }
 }  
 
