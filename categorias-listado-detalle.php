@@ -149,7 +149,7 @@
               </div>
             </div> 
             <p></p> 
-            <a href="#" class="linkButton">perfil del vendedor</a>
+            <a href="empresa.php" class="linkButton">perfil del vendedor</a>
           </section>
           <section>
             <h2>Caracteristicas</h2>

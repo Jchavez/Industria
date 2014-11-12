@@ -25,9 +25,9 @@
                 <li style="border:none;"><a href="contacto.php" class="active">Contacto  </a></li>
               </ul>
             </div>
-            <div class="col-md-9">
+            <div class="col-md-6">
               <div class="row">
-                <div class="col-md-7">
+                <div class="col-md-12">
 
                   <ul class="bxsliderHome">
                     <li><img src="images/imageNews.jpg" class="grow img-responsive" /></li>
@@ -41,10 +41,11 @@
                   </a>
                   -->
                 </div>
-                <div class="col-md-5">
-                  <?php require("last_news.php");?>
-                </div>
+                
               </div>
+            </div>
+            <div class="col-md-3">
+                  <?php require("last_news.php");?>
             </div>
           </div>
         </section>
