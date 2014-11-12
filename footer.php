@@ -4,22 +4,22 @@
           <div class="col-md-3">
             <ul>
               <li><a href="empresa.php">Acerca de Industria en la web</a></li>
-              <li><a href="#">Condiciones</a></li>
-              <li style="border:none;"><a href="#">Privacidad</a></li>
+              <li><a href="pagina_hibrida.php">Condiciones</a></li>
+              <li style="border:none;"><a href="pagina_hibrida.php">Privacidad</a></li>
             </ul>
           </div>
           <div class="col-md-3">
             <ul>
-              <li><a href="#">Seguridad</a></li>
-              <li><a href="#">Ayuda</a></li>
+              <li><a href="pagina_hibrida.php">Seguridad</a></li>
+              <li><a href="pagina_hibrida.php">Ayuda</a></li>
               <li style="border:none;"><a href="mailto:info@industriaenlaweb.com">info@industriaenlaweb.com</a></li>
             </ul>
           </div>
           <div class="col-md-3">
               <div class="social">
-                <a href="#" target="_blank" title="" class="icons iconGmail" id="iconGmail">Gmail</a>
-                <a href="#" target="_blank" title="" class="icons iconTwitter">Twitter</a>
-                <a href="#" target="_blank" title="" class="icons iconFacebook">Facebook</a>
+                <a href="http://gmail.com" target="_blank" title="" class="icons iconGmail" id="iconGmail">Gmail</a>
+                <a href="https://twitter.com" target="_blank" title="" class="icons iconTwitter">Twitter</a>
+                <a href="https://www.facebook.com" target="_blank" title="" class="icons iconFacebook">Facebook</a>
               </div>
               <p class="social">Seguinos en las <br/>Redes Sociales</p>
           </div>

@@ -118,7 +118,6 @@ h3{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
-
 /* Shrink */
 .shrink {
     display: inline-block;
@@ -235,12 +234,10 @@ button, input[type=button], input[type=reset], input[type=submit],.btn-default, 
     background: #00b2ed;
     display: inherit;
 }
-
     .lightBlue:hover{
         background: #ff5300;
         color: #fff;
     }
-
 textarea, select, input[type="search"],input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="url"], input[type="text"],.form-control{
     border-radius: 4px;
     background: #ebebeb;
@@ -260,12 +257,11 @@ select{
     -webkit-appearance:none;
     -moz-appearance:none;
     appearance:none;
-   background-image: url("../images/iconSelect.jpg");
-   background-position:  right center;
-   background-repeat:   no-repeat;
-   background-color:  #ebebeb; 
+    background-image: url("../images/iconSelect.jpg");
+    background-position:  right center;
+    background-repeat:   no-repeat;
+    background-color:  #ebebeb; 
 }
-
 input[type="search"]{
     background: url("../images/iconSearch2.jpg") no-repeat right center #ebebeb;
     padding-right: 45px;
@@ -274,15 +270,12 @@ input[type="search"]{
 input[type="file"]{
     cursor: pointer;
 }
-
 .media_file{
     float: left;
     width: 82px;
     height: 126px;
     text-align: center;
-   /*margin: 0px 8px 8px 8px; */
 }
-
 .imagefile,.videofile{
     width: 82px;
     height: 82px;
@@ -305,11 +298,9 @@ input[type="file"]{
        margin: 0;
        float: left;   
     }
-
 .form-group{
     margin-bottom: 0px;
 }
-
 .formStyle{
     background:url("../images/bgFormStyle.jpg") no-repeat center top #00334b;
     width: 100%;
@@ -326,8 +317,6 @@ input[type="file"]{
     text-align: center;
     padding: 18px 0;
 }
-
-
 #headerSearch{
     color: #00b2ed;   
     background-color: #094969;
@@ -335,7 +324,6 @@ input[type="file"]{
     width: 300px;
     margin-right: 8px;
 }
-
 .breadcrumb {
     padding: 21px 0px;
     margin-bottom: 0px;
@@ -344,7 +332,6 @@ input[type="file"]{
     border-radius: 0px;
     color: #fff;
 }
-
 .breadcrumb li,.breadcrumb a, .breadcrumb a:hover{
     color: #fff;
 }
@@ -356,13 +343,6 @@ input[type="file"]{
 .breadcrumb>.active {
     color: #094969;
 }
-/*#navIcon{
-    display: block;
-    width: 210px;
-    height: 32px;
-    margin-left: auto;
-    margin-right: auto;
-}*/
 a.icons{
     width: 32px; 
     height: 32px;
@@ -374,33 +354,33 @@ a.icons{
     display: block;
     float: left;
 }
-a.iconFacebook{ background-position: 0 0;} 
-a.iconFacebook:hover{ background-position: -37px 0;} 
-a.iconFacebook_hover{ background-position: -37px 0;} 
+    a.iconFacebook{ background-position: 0 0;} 
+    a.iconFacebook:hover{ background-position: -37px 0;} 
+    a.iconFacebook_hover{ background-position: -37px 0;} 
 
-a.iconFavorites{ background-position: -74px 0;} 
-a.iconFavorites:hover{ background-position: -111px 0;} 
-a.iconFavorites_hover{ background-position: -111px 0;}
+    a.iconFavorites{ background-position: -74px 0;} 
+    a.iconFavorites:hover{ background-position: -111px 0;} 
+    a.iconFavorites_hover{ background-position: -111px 0;}
 
-a.iconGmail{ background-position: -148px 0;} 
-a.iconGmail:hover{ background-position: -185px 0;} 
-a.iconGmail_hover{ background-position: -185px 0;} 
+    a.iconGmail{ background-position: -148px 0;} 
+    a.iconGmail:hover{ background-position: -185px 0;} 
+    a.iconGmail_hover{ background-position: -185px 0;} 
 
-a.iconHelp{ background-position: -222px 0;} 
-a.iconHelp:hover{ background-position: -259px 0;} 
-a.iconHelp_hover{ background-position: -259px 0;} 
+    a.iconHelp{ background-position: -222px 0;} 
+    a.iconHelp:hover{ background-position: -259px 0;} 
+    a.iconHelp_hover{ background-position: -259px 0;} 
 
-a.iconInformation{ background-position: -296px 0;} 
-a.iconInformation:hover{ background-position: -333px 0;} 
-a.iconInformation_hover{ background-position: -333px 0;} 
+    a.iconInformation{ background-position: -296px 0;} 
+    a.iconInformation:hover{ background-position: -333px 0;} 
+    a.iconInformation_hover{ background-position: -333px 0;} 
 
-a.iconTwitter{ background-position: -370px 0;} 
-a.iconTwitter:hover{ background-position: -407px 0;} 
-a.iconTwitter_hover{ background-position: -407px 0;} 
+    a.iconTwitter{ background-position: -370px 0;} 
+    a.iconTwitter:hover{ background-position: -407px 0;} 
+    a.iconTwitter_hover{ background-position: -407px 0;} 
 
-a.iconUser{ background-position: -444px 0;} 
-a.iconUser:hover{ background-position: -481px 0;} 
-a.iconUser_hover{ background-position: -481px 0;} 
+    a.iconUser{ background-position: -444px 0;} 
+    a.iconUser:hover{ background-position: -481px 0;} 
+    a.iconUser_hover{ background-position: -481px 0;} 
 
 a.icons2{
     width: 32px; 
@@ -413,18 +393,18 @@ a.icons2{
     display: block;
     float: left;
 }
-a.iconFacebook2{ background-position: 0 0;} 
-a.iconFacebook2:hover{ background-position: -37px 0;} 
-a.iconFavorites2{ background-position: -74px 0;} 
-a.iconFavorites2:hover{ background-position: -111px 0;} 
-a.iconMessage{ background-position: -148px 0;} 
-a.iconMessage:hover{ background-position: -185px 0;} 
-a.iconTelephone{ background-position: -222px 0;} 
-a.iconTelephone:hover{ background-position: -259px 0;} 
-a.iconTwitter2{ background-position: -296px 0;} 
-a.iconTwitter2:hover{ background-position: -333px 0;} 
-a.iconWeb{ background-position: -370px 0;} 
-a.iconWeb:hover{ background-position: -407px 0;} 
+    a.iconFacebook2{ background-position: 0 0;} 
+    a.iconFacebook2:hover{ background-position: -37px 0;} 
+    a.iconFavorites2{ background-position: -74px 0;} 
+    a.iconFavorites2:hover{ background-position: -111px 0;} 
+    a.iconMessage{ background-position: -148px 0;} 
+    a.iconMessage:hover{ background-position: -185px 0;} 
+    a.iconTelephone{ background-position: -222px 0;} 
+    a.iconTelephone:hover{ background-position: -259px 0;} 
+    a.iconTwitter2{ background-position: -296px 0;} 
+    a.iconTwitter2:hover{ background-position: -333px 0;} 
+    a.iconWeb{ background-position: -370px 0;} 
+    a.iconWeb:hover{ background-position: -407px 0;} 
 
 a.textSocial{
     margin-top: 6px;
@@ -628,14 +608,13 @@ a.textSocial{
         }
 
 
-    .menu-icon {
+    .menu-icon{
         display: block;
         width: auto;
-        height: 96px;
+        height: 50px;
         float: left;
         padding-left: 10px;
         padding-right:10px;
-        position: relative;
     }
     .menu-icon:hover{
         background: #ff5300;
@@ -643,18 +622,21 @@ a.textSocial{
     .menu-icon:hover ul{
         display: block;
     }
-    .menu-icon ul{
+    .menu-icon ul{ 
         display: none;
         position: absolute;
         background: #ff5300;
         z-index: 999;
-        right: 0px;
-        top: 96px;
+        top: 50px;
+        left: 0;
+        width: 100%;
     }
     .menu-icon ul li{
+        width: 100%;
     }
     .menu-icon a{
         color: #fff;
+        padding: 16px 0;
     }
         .menu-icon a.icons{
             margin: 0;
@@ -666,10 +648,14 @@ a.textSocial{
         background: #252525;
     }
 
-    .menu-icon img{
-        float: left;
-        margin: 0 7px 0 0;
+    .menu-icon .micro-new{
+        text-align: left;
+        display: inline-block;
     }
+        .menu-icon .micro-new img{
+            float: left;
+            margin: 0 7px 0 0;
+        }
 /*end - HEADER*/
 
 
@@ -901,7 +887,13 @@ a.iconOrderList2{
         float: left;
         width: 100%;
     }
-} 
+    .navIcon{
+        margin: 0 auto;
+        width: 210px;
+        display: block;
+        height: 32px;
+    }
+}  
 
 
 /*********Medium screens**********/
@@ -924,18 +916,32 @@ a.iconOrderList2{
     #navIcon{
         /*margin-top: 32px;*/
     }
+
     .menu-icon {
         padding-top: 32px;
+        position: relative;
     }
     .search{
         display: block;
+    }
+    .menu-icon {
+        height: 96px;
+    }
+    .menu-icon ul{
+        top: 96px;
+        right: 0;
+        left: inherit;
+        width: auto;
+    }
+    .menu-icon ul li{
+        width: 310px;
     }
 
 }
 @media (max-width: 991px) {
     .wrapperIcons{
         border-top: 1px solid #335c6f;
-        padding: 16px 0;
+        /*padding: 16px 0;*/
     }
     .content-bottom strong{
         margin-bottom: 13px;
@@ -971,6 +977,7 @@ a.iconOrderList2{
 /*********Large screens**********/
 /* min-width 1025px, large screens */
 @media only screen and (min-width: 64.063em) { 
+    
     
 } 
 /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */

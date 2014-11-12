@@ -68,14 +68,29 @@
                 <nav class="menu-icon">
                   <a href="#" target="_blank" title="" class="icons iconFavorites">Favorites</a>
                   <ul class="nav">
-                    <li style="width:310px;">
+                    <li>
                       <a href="#">Mis anuncios favoritos</a>
                     </li>
                     <li class="">
-                      <a href="categorias-listado-detalle.php">
+                      <a href="categorias-listado-detalle.php" class="micro-new">
                         <img src="images/thumb.jpg">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit
                       </a>
+                    </li>
+                    <li class="">
+                      <a href="categorias-listado-detalle.php" class="micro-new">
+                        <img src="images/thumb.jpg">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                      </a>
+                    </li>
+                    <li class="">
+                      <a href="categorias-listado-detalle.php" class="micro-new">
+                        <img src="images/thumb.jpg">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                      </a>
+                    </li>
+                    <li>
+                      <a href="categorias.php">Ver Todos</a>
                     </li>
                   </ul>
                 </nav>
