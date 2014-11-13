@@ -35,6 +35,113 @@
         </div>
       </div>
   </footer>
+
+<!-- Modals -->
+<div class="modal fade" id="account" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-body">
+      <section>
+        <h1>MI CUENTA</h1>
+        <form>
+        <div class="form-group">
+          <label>Email o Usuario</label>
+          <input type="text" class="form-control" id="user" placeholder="">
+        </div>
+        <div class="form-group">
+          <label>Contraseña</label>
+          <input type="password" class="form-control" id="user" placeholder="">
+        </div>
+        <div class="form-group">
+          <p>
+          <a href="#" data-toggle="modal" data-target="#lostpass">Olvid&eacute; mi contraseña</a> | <a href="#" data-toggle="modal" data-target="#register">Nuevo Usuario</a>
+          </p>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-default">ENTRAR</button>
+        </div>
+        </form>
+      </section>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="lostpass" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-body">
+      <section>
+        <h1>OLVIDE MI CUENTA</h1>
+        <form>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" class="form-control" id="email" placeholder="">
+        </div>
+        <div class="form-group">
+          <p> Le enviaremos un email a su casilla de correo con los datos<br/>
+            de acceso.<br/>
+            *Debe estar registrado como usuario.
+            *Si no est&aacute; registrado como <a href="#" data-toggle="modal" data-target="#register">h&aacute;galo ahora</a>
+          </p>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-default">RECORDAR</button>
+        </div>
+        </form>
+      </section>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-body">
+      <section>
+        <h1>NUEVO USUARIO</h1>
+        <form>
+        <div class="form-group">
+          <label>Email o Usuario</label>
+          <input type="text" class="form-control" id="user" placeholder="">
+        </div>
+        <div class="form-group">
+          <label>Coontraseña</label>
+          <input type="password" class="form-control" id="password" placeholder="">
+        </div>
+        <div class="form-group">
+          <label>Nombre y Apellido</label>
+          <input type="text" class="form-control" id="fullname" placeholder="">
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" class="form-control" id="email" placeholder="">
+        </div>
+        <div class="form-group">
+          <label>Ubicaci&oacute;n</label>
+          <input type="text" class="form-control" id="address" placeholder="">
+        </div>
+        <div class="form-group">
+          <label>Actividad</label>
+          <select>
+            <option></option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Tel&eacute;fono</label>
+          <input type="text" class="form-control" id="telephone" placeholder="Ej:(011) 5555-5555">
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-default">REGISTRARME</button>
+        </div>
+        </form>
+      </section>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery-1.11.1.min.js"  type="text/javascript"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->

@@ -673,6 +673,12 @@ a.textSocial{
     height: 32px;
     background-color: #00b2ed;
 }
+#wrapper-breadcrumb a.active{
+    color: #094969;
+}
+    #wrapper-breadcrumb a{
+        color: #fff;
+    }
 /*end - BREADCRUMB*/
 
 

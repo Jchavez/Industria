@@ -1,7 +1,14 @@
 <?php 
   require("header.php");
-  require("breadcrumb.php");
 ?>
+<section id="wrapper-breadcrumb">
+  <div class="container">
+        <ol class="breadcrumb">
+          <li><a href="index.php">Home</a></li>
+          <li><a href="#" class="active">Nombre de la Categoria</a></li>        
+        </ol>
+    </div>
+</section>
 
 <section id="wrapper-content">
   <div class="container">

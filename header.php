@@ -95,7 +95,7 @@
                   </ul>
                 </nav>
                 <nav class="menu-icon">
-                  <a href="#" title="" class="icons iconUser">User</a>
+                  <a href="#" title="" class="icons iconUser" data-toggle="modal" data-target="#account">User</a>
                   <ul class="nav">
                     <li class="" style=""><a href="#">Mi Industria</a></li>
                     <li class=""><a href="perfil.php">Configurar mi Perfil</a></li>
