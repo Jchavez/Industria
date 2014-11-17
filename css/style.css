@@ -421,6 +421,13 @@ a.textSocial{
     text-decoration: underline;
 }
 
+.mess{
+    text-decoration: underline;
+}
+a.mess:hover{
+    text-decoration: underline;
+}
+
 .currency_val{
     text-align: center;
 }

@@ -40,7 +40,7 @@
                   <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
                       <div role="tab">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true">
+                          <a data-toggle="collapse" class="mess" data-parent="#accordion" href="#collapse1" aria-expanded="true">
                             Lorem ipsum dolor sit amet, consectetur adipiscis elit
                           </a>
                       </div>
@@ -67,7 +67,7 @@
                   <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
                       <div role="tab">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true">
+                          <a data-toggle="collapse" class="mess" data-parent="#accordion" href="#collapse2" aria-expanded="true">
                             Lorem ipsum dolor sit amet, consectetur adipiscis elit
                           </a>
                       </div>
@@ -94,7 +94,7 @@
                   <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
                       <div role="tab">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true">
+                          <a data-toggle="collapse" class="mess" data-parent="#accordion" href="#collapse3" aria-expanded="true">
                             Lorem ipsum dolor sit amet, consectetur adipiscis elit
                           </a>
                       </div>
@@ -121,7 +121,7 @@
                   <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
                       <div role="tab">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true">
+                          <a data-toggle="collapse" class="mess" data-parent="#accordion" href="#collapse4" aria-expanded="true">
                             Lorem ipsum dolor sit amet, consectetur adipiscis elit
                           </a>
                       </div>
@@ -148,7 +148,7 @@
                   <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
                       <div role="tab">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="true">
+                          <a data-toggle="collapse" class="mess" data-parent="#accordion" href="#collapse5" aria-expanded="true">
                             Lorem ipsum dolor sit amet, consectetur adipiscis elit
                           </a>
                       </div>
