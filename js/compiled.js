@@ -35,6 +35,12 @@ $(document).ready(function() {
 		pager:false		
 	});
 
+	$('#backRegister').click(function(){
+		$('#noMoreData').modal('hide');
+		$('#account').modal('show');
+	});
+
+
 	
 });
 

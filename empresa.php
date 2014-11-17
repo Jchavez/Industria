@@ -79,7 +79,8 @@
                   <input type="text" placeholder="Telefono">
                 </div>
                 <div class="form-group">
-                  <input type="submit" class="btn btn-default" value="Enviar">
+                  <!--<input type="submit" class="btn btn-default"  value="Enviar">-->
+                  <a href="#" class="linkButton" data-toggle="modal" data-target="#noMoreData" style="float:left;">Enviar</a>
                 </div>
               </div>
               <div class="col-md-6">

@@ -148,11 +148,15 @@
     <div class="modal-content">
       <div class="modal-body">
       <section>
-        <h1>NO PUEDE VER MAS DATOS</h1>
-        <p>Para ver m&aacute;s datos sobre esta empresaz<br/>
-           debe estar REGISTRADO!
-           <a href="#" class="linkButton" data-toggle="modal" data-target="#register" style="float:left;">REGISTRARSE</a>
-        </p>
+        <div class="row">
+          <div class="col-md-12">
+            <h1>NO PUEDE VER MAS DATOS</h1>
+            <p>Para ver m&aacute;s datos sobre esta empresa debe estar REGISTRADO!<br/>
+               <br/>
+               <a href="#" id="backRegister" class="linkButton" style="float:left;">REGISTRARSE</a>
+            </p>
+          </div>
+        </div>
       </section>
       </div>
     </div>
