@@ -27,27 +27,27 @@
             <div class="row">
               <div class="col-xs-12 col-md-6">
                   <a href="#" target="_blank" title="" class="icons2 iconFacebook2">Fb</a>
-                  <a href="#" class="textSocial">Facebook</a>
+                  <a href="#" class="textSocial" data-toggle="modal" data-target="#noMoreData">Facebook</a>
               </div>
               <div class="col-xs-12 col-md-6">
                   <a href="#" target="_blank" title="" class="icons2 iconTelephone">Tel</a>
-                  <a href="#" class="textSocial">Telefono</a>
+                  <a href="#" class="textSocial" data-toggle="modal" data-target="#noMoreData">Telefono</a>
               </div>
             </div>
             <div class="row"> 
               <div class="col-xs-12 col-md-6">
                   <a href="#" target="_blank" title="" class="icons2 iconTwitter2">Tel</a>
-                  <a href="#" class="textSocial">Twitter</a>
+                  <a href="#" class="textSocial" data-toggle="modal" data-target="#noMoreData">Twitter</a>
               </div>
               <div class="col-xs-12 col-md-6">
                   <a href="#" target="_blank" title="" class="icons2 iconMessage">Email</a>
-                  <a href="#" class="textSocial">Email</a>
+                  <a href="#" class="textSocial" data-toggle="modal" data-target="#noMoreData">Email</a>
               </div>
             </div>
             <div class="row">
               <div class="col-xs-12 col-md-6">
                   <a href="#" target="_blank" title="" class="icons2 iconWeb">Web</a>
-                  <a href="#" class="textSocial">Web</a>
+                  <a href="#" class="textSocial" data-toggle="modal" data-target="#noMoreData">Web</a>
               </div>
               <div class="col-xs-12 col-md-6">
               </div>

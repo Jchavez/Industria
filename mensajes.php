@@ -10,9 +10,9 @@
           <div class="row">
             <div class="col-md-3 sidebar">
               <ul class="nav nav-pills nav-stacked">
-                <li class="active"><a href="planes.php">Planes</a></li>
+                <li><a href="planes.php">Planes</a></li>
                 <li><a href="perfil.php">Perfil</a></li>
-                <li><a href="mensajes.php" class="active">Mensajes</a></li>
+                <li class="active"><a href="mensajes.php" class="active">Mensajes</a></li>
                 <li><a href="categorias-listado.php" class="active">Mis Anuncios</a></li>
                 <li><a href="publicar_anuncio.php" class="active">Publicar Anuncio</a></li>
                 <li><a href="pagina_hibrida.php" class="active">Estadisticas</a></li>
@@ -68,7 +68,6 @@
                      Lorem ipsum dolor sit amet, consectetur adipiscis elit
                      Lorem ipsum dolor sit amet, consectetur adipiscis elit
                   </p>
-                  <hr style="margin-top: 5px;margin-bottom: 5px;">
                 </div>
               </div>
 
@@ -79,8 +78,8 @@
                   </div>
                   <div class="col-md-7">
                     <textarea rows="8"></textarea>
-                    <button type="submit" class="btn btn-default">CONTINUAR</button>
-                    <hr style="margin-top: 5px;margin-bottom: 5px;">
+                    <button type="submit" class="btn btn-default">ENVIAR</button>
+                    <hr style="margin-top: 1em;margin-bottom: 5px;">
                   </div>
                 </div>
               </form>

@@ -36,7 +36,7 @@
                 <div class="col-xs-12 col-md-6">
                     <a href="https://www.facebook.com/" target="_blank" title="" class="icons2 iconFacebook2">Fb</a>
                     <a href="https://twitter.com" target="_blank" title="" class="icons2 iconTwitter2">Twitter</a>
-                    <!--<em class="textGrey">Compartir</em>-->
+                    <em class="textGrey">Compartir</em>
                 </div>
               </div>
 
@@ -160,6 +160,8 @@
             <p></p> 
             <a href="empresa.php" class="linkButton">perfil del vendedor</a>
           </section>
+          
+          <hr>
           <section>
             <h2>Caracteristicas</h2>
             <p>

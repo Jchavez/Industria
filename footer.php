@@ -142,6 +142,23 @@
   </div>
 </div>
 
+
+<div class="modal fade" id="noMoreData" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-body">
+      <section>
+        <h1>NO PUEDE VER MAS DATOS</h1>
+        <p>Para ver m&aacute;s datos sobre esta empresaz<br/>
+           debe estar REGISTRADO!
+           <a href="#" class="linkButton" data-toggle="modal" data-target="#register" style="float:left;">REGISTRARSE</a>
+        </p>
+      </section>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery-1.11.1.min.js"  type="text/javascript"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->

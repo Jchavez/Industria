@@ -1,5 +1,5 @@
 <div class="news">
-<h2>Últimos publicados</h2>
+<h2 class="ultimos-publicados">Últimos publicados</h2>
 </div>
 <div class="news">
   <a href="categorias-listado-detalle.php"><img src="images/imageNews1.jpg" alt="industria web" class="shrink"></a>
